@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Timetable</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        :root {
+            --primary: #3498db;
+            --secondary: #2c3e50;
+            --success: #2ecc71;
+            --warning: #e67e22;
+            --danger: #e74c3c;
+            --light: #f8f9fa;
+            --dark: #343a40;
+            --gray: #6c757d;
+            --border: #dee2e6;
+        }
+        
+        body {
+            background-color: #f5f7fa;
+            color: var(--dark);
+            line-height: 1.6;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid var(--border);
+        }
+        
+        h1 {
+            color: var(--secondary);
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: var(--gray);
+            font-size: 1.1rem;
+        }
+        
+        .class-section {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            margin-bottom: 30px;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .class-section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+        }
+        
+        .class-header {
+            background: linear-gradient(135deg, var(--primary), #2980b9);
+            color: white;
+            padding: 18px 25px;
+            font-size: 1.3rem;
+            font-weight: 600;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .class-code {
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+        
+        .class-type-badge {
+            background-color: rgba(255, 255, 255, 0.2);
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+        
+        .timetable {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .timetable th {
+            background-color: var(--light);
+            padding: 14px 16px;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+            font-weight: 600;
+            color: var(--secondary);
+            position: sticky;
+            top: 0;
+        }
+        
+        .timetable td {
+            padding: 16px;
+            border-bottom: 1px solid var(--border);
+            vertical-align: top;
+        }
+        
+        .day-column {
+            width: 18%;
+            font-weight: 600;
+            color: var(--secondary);
+            background-color: rgba(52, 152, 219, 0.05);
+        }
+        
+        .class-card {
+            background-color: white;
+            border-left: 4px solid var(--primary);
+            border-radius: 6px;
+            padding: 14px;
+            margin-bottom: 12px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.06);
+            transition: all 0.2s ease;
+        }
+        
+        .class-card:hover {
+            transform: translateX(3px);
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        .class-card:last-child {
+            margin-bottom: 0;
+        }
+        
+        .class-time {
+            font-weight: 600;
+            color: var(--secondary);
+            margin-bottom: 6px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .time-icon {
+            color: var(--primary);
+        }
+        
+        .class-name {
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: var(--dark);
+            font-size: 1.05rem;
+        }
+        
+        .class-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 8px;
+        }
+        
+        .class-type {
+            display: inline-flex;
+            align-items: center;
+            background-color: var(--success);
+            color: white;
+            padding: 4px 10px;
+            border-radius: 14px;
+            font-size: 0.8rem;
+            font-weight: 500;
+            gap: 4px;
+        }
+        
+        .class-type.lab {
+            background-color: var(--warning);
+        }
+        
+        .class-duration {
+            display: inline-flex;
+            align-items: center;
+            background-color: var(--primary);
+            color: white;
+            padding: 4px 10px;
+            border-radius: 14px;
+            font-size: 0.8rem;
+            font-weight: 500;
+            gap: 4px;
+        }
+        
+        .class-details {
+            font-size: 0.9rem;
+            color: var(--gray);
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+        
+        .instructor-info {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            margin-top: 6px;
+        }
+        
+        .instructor-icon {
+            color: var(--primary);
+        }
+        
+        .venue-info {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        
+        .venue-icon {
+            color: var(--warning);
+        }
+        
+        .no-class {
+            color: var(--gray);
+            font-style: italic;
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(108, 117, 125, 0.05);
+            border-radius: 6px;
+        }
+        
+        .controls {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .search-box {
+            flex: 1;
+            min-width: 250px;
+            position: relative;
+        }
+        
+        .search-box input {
+            width: 100%;
+            padding: 12px 16px 12px 40px;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: all 0.3s;
+        }
+        
+        .search-box input:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+        }
+        
+        .search-icon {
+            position: absolute;
+            left: 14px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--gray);
+        }
+        
+        .filter-controls {
+            display: flex;
+            gap: 10px;
+        }
+        
+        .filter-btn {
+            padding: 10px 16px;
+            background-color: white;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-weight: 500;
+        }
+        
+        .filter-btn:hover {
+            background-color: var(--light);
+        }
+        
+        .filter-btn.active {
+            background-color: var(--primary);
+            color: white;
+            border-color: var(--primary);
+        }
+        
+        @media (max-width: 992px) {
+            .timetable {
+                display: block;
+                overflow-x: auto;
+            }
+            
+            .timetable th, .timetable td {
+                white-space: nowrap;
+                min-width: 200px;
+            }
+            
+            .class-card {
+                min-width: 280px;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .class-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 10px;
+            }
+            
+            .controls {
+                flex-direction: column;
+            }
+            
+            .search-box {
+                min-width: 100%;
+            }
+            
+            .filter-controls {
+                width: 100%;
+                justify-content: space-between;
+            }
+            
+            .filter-btn {
+                flex: 1;
+                text-align: center;
+            }
+        }
+        
+        .empty-state {
+            text-align: center;
+            padding: 40px 20px;
+            color: var(--gray);
+        }
+        
+        .empty-state h3 {
+            margin-bottom: 10px;
+            color: var(--secondary);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Class Timetable</h1>
+            <p class="subtitle">Computer Engineering Department - Organized by Class</p>
+        </header>
+        
+        <div class="controls">
+            <div class="search-box">
+                <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+                <input type="text" id="search-input" placeholder="Search for classes, courses, or instructors...">
+            </div>
+            
+            <div class="filter-controls">
+                <button class="filter-btn active" data-filter="all">All Classes</button>
+                <button class="filter-btn" data-filter="regular">Regular</button>
+                <button class="filter-btn" data-filter="repeaters">Repeaters</button>
+                <button class="filter-btn" data-filter="rce">RCE</button>
+            </div>
+        </div>
+        
+        <div id="timetable-container">
+            <!-- Timetable will be generated here by JavaScript -->
+        </div>
+    </div>
+
+    <script>
+        // Sample data from the provided JSON
+        let timetableData = [];
+
+        fetch('data.json')
+        .then(response => {
+            if (!response.ok) throw new Error('Failed to load faculty data');
+            return response.json();
+        })
+        .then(data => {
+            timetableData = data;
+            generateTimetable();
+            setupEventListeners();
+        })
+        .catch(error => console.error('Error loading data.json:', error));
+        
+        // Function to organize data by class
+        function organizeDataByClass(data) {
+            const classes = {};
+            
+            data.forEach(instructor => {
+                const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
+                
+                days.forEach(day => {
+                    if (instructor[day] && instructor[day].length > 0) {
+                        instructor[day].forEach(session => {
+                            const classCode = session.Class;
+                            
+                            if (!classes[classCode]) {
+                                classes[classCode] = {
+                                    sessions: [],
+                                    type: getClassType(classCode)
+                                };
+                            }
+                            
+                            // Add session with instructor info
+                            classes[classCode].sessions.push({
+                                ...session,
+                                Instructor: instructor.Instructor,
+                                Day: day
+                            });
+                        });
+                    }
+                });
+            });
+            
+            return classes;
+        }
+        
+        // Function to determine class type
+        function getClassType(classCode) {
+            if (classCode.includes('Repeaters')) return 'repeaters';
+            if (classCode === 'RCE') return 'rce';
+            return 'regular';
+        }
+        
+        // Function to generate the timetable HTML
+        function generateTimetable(filter = 'all', searchTerm = '') {
+            const container = document.getElementById('timetable-container');
+            container.innerHTML = '';
+            
+            const classesData = organizeDataByClass(timetableData);
+            const classCodes = Object.keys(classesData).sort();
+            
+            let hasResults = false;
+            
+            classCodes.forEach(classCode => {
+                const classData = classesData[classCode];
+                
+                // Apply filters
+                if (filter !== 'all' && classData.type !== filter) {
+                    return;
+                }
+                
+                // Apply search
+                if (searchTerm) {
+                    const searchLower = searchTerm.toLowerCase();
+                    const hasMatch = classData.sessions.some(session => 
+                        session.CourseName.toLowerCase().includes(searchLower) ||
+                        session.Instructor.toLowerCase().includes(searchLower) ||
+                        classCode.toLowerCase().includes(searchLower)
+                    );
+                    
+                    if (!hasMatch) return;
+                }
+                
+                hasResults = true;
+                
+                // Create class section
+                const classSection = document.createElement('div');
+                classSection.className = 'class-section';
+                classSection.setAttribute('data-class-type', classData.type);
+                
+                // Create class header
+                const classHeader = document.createElement('div');
+                classHeader.className = 'class-header';
+                
+                const classCodeDiv = document.createElement('div');
+                classCodeDiv.className = 'class-code';
+                classCodeDiv.textContent = classCode;
+                
+                const classTypeBadge = document.createElement('div');
+                classTypeBadge.className = 'class-type-badge';
+                classTypeBadge.textContent = classData.type.charAt(0).toUpperCase() + classData.type.slice(1);
+                
+                classHeader.appendChild(classCodeDiv);
+                classHeader.appendChild(classTypeBadge);
+                classSection.appendChild(classHeader);
+                
+                // Create timetable table
+                const table = document.createElement('table');
+                table.className = 'timetable';
+                
+                // Create table header
+                const thead = document.createElement('thead');
+                const headerRow = document.createElement('tr');
+                
+                const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
+                days.forEach(day => {
+                    const th = document.createElement('th');
+                    th.textContent = day;
+                    headerRow.appendChild(th);
+                });
+                
+                thead.appendChild(headerRow);
+                table.appendChild(thead);
+                
+                // Create table body
+                const tbody = document.createElement('tbody');
+                const bodyRow = document.createElement('tr');
+                
+                days.forEach(day => {
+                    const td = document.createElement('td');
+                    td.className = 'day-column';
+                    
+                    const daySessions = classData.sessions.filter(session => session.Day === day);
+                    
+                    if (daySessions.length > 0) {
+                        daySessions.forEach(session => {
+                            const classCard = document.createElement('div');
+                            classCard.className = 'class-card';
+                            
+                            const classTime = document.createElement('div');
+                            classTime.className = 'class-time';
+                            classTime.innerHTML = `
+                                <svg class="time-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12 6 12 12 16 14"></polyline>
+                                </svg>
+                                ${session['start-time']} - ${session['end-time']}
+                            `;
+                            classCard.appendChild(classTime);
+                            
+                            const className = document.createElement('div');
+                            className.className = 'class-name';
+                            className.textContent = session.CourseName;
+                            classCard.appendChild(className);
+                            
+                            const classMeta = document.createElement('div');
+                            classMeta.className = 'class-meta';
+                            
+                            const classType = document.createElement('div');
+                            classType.className = `class-type ${session.type.toLowerCase()}`;
+                            classType.innerHTML = `
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                                </svg>
+                                ${session.type}
+                            `;
+                            classMeta.appendChild(classType);
+                            
+                            const classDuration = document.createElement('div');
+                            classDuration.className = 'class-duration';
+                            classDuration.innerHTML = `
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12 6 12 12 16 14"></polyline>
+                                </svg>
+                                ${session.duration}h
+                            `;
+                            classMeta.appendChild(classDuration);
+                            
+                            classCard.appendChild(classMeta);
+                            
+                            const classDetails = document.createElement('div');
+                            classDetails.className = 'class-details';
+                            classDetails.innerHTML = `
+                                <div class="instructor-info">
+                                    <svg class="instructor-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                        <circle cx="12" cy="7" r="4"></circle>
+                                    </svg>
+                                    <span><strong>Instructor:</strong> ${session.Instructor}</span>
+                                </div>
+                                <div class="venue-info">
+                                    <svg class="venue-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                        <circle cx="12" cy="10" r="3"></circle>
+                                    </svg>
+                                    <span><strong>Venue:</strong> ${session.Venue}</span>
+                                </div>
+                            `;
+                            classCard.appendChild(classDetails);
+                            
+                            td.appendChild(classCard);
+                        });
+                    } else {
+                        const noClass = document.createElement('div');
+                        noClass.className = 'no-class';
+                        noClass.textContent = 'No classes';
+                        td.appendChild(noClass);
+                    }
+                    
+                    bodyRow.appendChild(td);
+                });
+                
+                tbody.appendChild(bodyRow);
+                table.appendChild(tbody);
+                
+                classSection.appendChild(table);
+                container.appendChild(classSection);
+            });
+            
+            if (!hasResults) {
+                container.innerHTML = `
+                    <div class="empty-state">
+                        <h3>No classes found</h3>
+                        <p>Try adjusting your search or filter criteria</p>
+                    </div>
+                `;
+            }
+        }
+
+        // Set up event listeners
+        function setupEventListeners() {
+            // Filter buttons
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    const filter = this.getAttribute('data-filter');
+                    const searchTerm = document.getElementById('search-input').value;
+                    generateTimetable(filter, searchTerm);
+                });
+            });
+            
+            // Search input
+            document.getElementById('search-input').addEventListener('input', function() {
+                const filter = document.querySelector('.filter-btn.active').getAttribute('data-filter');
+                generateTimetable(filter, this.value);
+            });
+        }
+
+        // Generate the timetable when the page loads
+        await .addEventListener('DOMContentLoaded', function() {
+            generateTimetable();
+            setupEventListeners();
+        });
+    </script>
+</body>
+</html>

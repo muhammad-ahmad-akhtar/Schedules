@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venue Timetable</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+            color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .description {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .controls {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            gap: 15px;
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        }
+        
+        .venue-selector {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        select {
+            padding: 10px 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: white;
+            font-size: 1rem;
+            min-width: 200px;
+        }
+        
+        .day-filter {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+        
+        .day-btn {
+            padding: 8px 15px;
+            background-color: #f0f0f0;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .day-btn:hover {
+            background-color: #e0e0e0;
+        }
+        
+        .day-btn.active {
+            background-color: #6a11cb;
+            color: white;
+        }
+        
+        .timetable-container {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            margin-bottom: 30px;
+        }
+        
+        .venue-header {
+            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .venue-header h2 {
+            font-size: 1.8rem;
+            margin-bottom: 5px;
+        }
+        
+        .venue-info {
+            display: flex;
+            justify-content: space-between;
+            padding: 15px 20px;
+            background-color: #f8f9fa;
+            border-bottom: 1px solid #e9ecef;
+        }
+        
+        .timetable {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .timetable th {
+            background-color: #6a11cb;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-weight: 600;
+        }
+        
+        .timetable td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #e9ecef;
+            text-align: center;
+        }
+        
+        .timetable tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+        
+        .timetable tr:hover {
+            background-color: #e9ecef;
+        }
+        
+        .time-slot {
+            font-weight: 600;
+            color: #6a11cb;
+        }
+        
+        .lecture-info {
+            text-align: left;
+        }
+        
+        .course-name {
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        
+        .instructor, .class {
+            font-size: 0.9rem;
+            color: #666;
+        }
+        
+        .type {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+        
+        .type-lecture {
+            background-color: #e3f2fd;
+            color: #1976d2;
+        }
+        
+        .type-lab {
+            background-color: #e8f5e9;
+            color: #388e3c;
+        }
+        
+        .no-classes {
+            padding: 30px;
+            text-align: center;
+            color: #666;
+            font-style: italic;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: #666;
+            border-top: 1px solid #e9ecef;
+        }
+        
+        @media (max-width: 768px) {
+            .controls {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            
+            .venue-selector, .day-filter {
+                width: 100%;
+                justify-content: center;
+            }
+            
+            .timetable th, .timetable td {
+                padding: 8px 5px;
+                font-size: 0.9rem;
+            }
+            
+            .course-name {
+                font-size: 0.9rem;
+            }
+            
+            .instructor, .class {
+                font-size: 0.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Rooms Timetable</h1>
+            <p class="description">View all classes scheduled for a specific venue across different days and times</p>
+        </header>
+        
+        <div class="controls">
+            <div class="venue-selector">
+                <label for="venue-select">Select Venue:</label>
+                <select id="venue-select">
+                    <option value="">-- Select a Venue --</option>
+                </select>
+            </div>
+            
+            <div class="day-filter">
+                <button class="day-btn active" data-day="all">All Days</button>
+                <button class="day-btn" data-day="Monday">Monday</button>
+                <button class="day-btn" data-day="Tuesday">Tuesday</button>
+                <button class="day-btn" data-day="Wednesday">Wednesday</button>
+                <button class="day-btn" data-day="Thursday">Thursday</button>
+                <button class="day-btn" data-day="Friday">Friday</button>
+            </div>
+        </div>
+        
+        <div class="timetable-container">
+            <div class="venue-header">
+                <h2 id="venue-title">Select a Venue</h2>
+                <p id="venue-subtitle">Please select a venue from the dropdown to view its timetable</p>
+            </div>
+            
+            <div id="timetable-content">
+                <div class="no-classes">
+                    No venue selected. Please choose a venue from the dropdown above.
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>Venue Timetable Generator &copy; 2023</p>
+        </div>
+    </div>
+
+    <script>
+        // Faculty data from the JSON
+        let facultyData = [];
+
+        fetch('data.json')
+        .then(response => {
+            if (!response.ok) throw new Error('Failed to load faculty data');
+            return response.json();
+        })
+        .then(data => {
+            facultyData = data;
+            init();
+        })
+        .catch(error => console.error('Error loading data.json:', error)); 
+        
+        // Extract all unique venues from the data
+        function extractVenues(data) {
+            const venues = new Set();
+            
+            data.forEach(faculty => {
+                const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
+                
+                days.forEach(day => {
+                    if (faculty[day] && faculty[day].length > 0) {
+                        faculty[day].forEach(lecture => {
+                            if (lecture.Venue && lecture.Venue !== "Unknown") {
+                                venues.add(lecture.Venue);
+                            }
+                        });
+                    }
+                });
+            });
+            
+            return Array.from(venues).sort();
+        }
+
+        // Get classes for a specific venue
+        function getClassesForVenue(data, venue, dayFilter = 'all') {
+            const classes = [];
+            
+            data.forEach(faculty => {
+                const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
+                
+                days.forEach(day => {
+                    if ((dayFilter === 'all' || dayFilter === day) && faculty[day] && faculty[day].length > 0) {
+                        faculty[day].forEach(lecture => {
+                            if (lecture.Venue === venue) {
+                                classes.push({
+                                    day: day,
+                                    startTime: lecture['start-time'],
+                                    endTime: lecture['end-time'],
+                                    courseName: lecture.CourseName,
+                                    instructor: faculty.Instructor,
+                                    class: lecture.Class,
+                                    type: lecture.type
+                                });
+                            }
+                        });
+                    }
+                });
+            });
+            
+            // Sort classes by day and time
+            const dayOrder = {
+                'Monday': 1,
+                'Tuesday': 2,
+                'Wednesday': 3,
+                'Thursday': 4,
+                'Friday': 5
+            };
+            
+            classes.sort((a, b) => {
+                if (dayOrder[a.day] !== dayOrder[b.day]) {
+                    return dayOrder[a.day] - dayOrder[b.day];
+                }
+                
+                // Convert time to minutes for comparison
+                const aTime = convertTimeToMinutes(a.startTime);
+                const bTime = convertTimeToMinutes(b.startTime);
+                
+                return aTime - bTime;
+            });
+            
+            return classes;
+        }
+
+        // Convert time string to minutes for sorting
+        function convertTimeToMinutes(timeStr) {
+            const [hours, minutes] = timeStr.split(':').map(Number);
+            return hours * 60 + minutes;
+        }
+
+        // Format time for display
+        function formatTime(timeStr) {
+            const [hours, minutes] = timeStr.split(':');
+            const hour = parseInt(hours);
+            const ampm = hour >= 12 ? 'PM' : 'AM';
+            const displayHour = hour % 12 || 12;
+            return `${displayHour}:${minutes} ${ampm}`;
+        }
+
+        // Render timetable for a venue
+        function renderTimetable(venue, classes) {
+            const venueTitle = document.getElementById('venue-title');
+            const venueSubtitle = document.getElementById('venue-subtitle');
+            const timetableContent = document.getElementById('timetable-content');
+            
+            venueTitle.textContent = `Timetable for ${venue}`;
+            
+            if (classes.length === 0) {
+                venueSubtitle.textContent = 'No classes scheduled for this venue';
+                timetableContent.innerHTML = `
+                    <div class="no-classes">
+                        No classes found for ${venue} on the selected day(s).
+                    </div>
+                `;
+                return;
+            }
+            
+            // Count classes by type
+            const lectureCount = classes.filter(c => c.type === 'Lecture').length;
+            const labCount = classes.filter(c => c.type === 'Lab').length;
+            
+            venueSubtitle.textContent = `${classes.length} classes scheduled (${lectureCount} lectures, ${labCount} labs)`;
+            
+            // Group classes by day
+            const classesByDay = {};
+            classes.forEach(cls => {
+                if (!classesByDay[cls.day]) {
+                    classesByDay[cls.day] = [];
+                }
+                classesByDay[cls.day].push(cls);
+            });
+            
+            // Create timetable HTML
+            let timetableHTML = `
+                <div class="venue-info">
+                    <div>Total Classes: ${classes.length}</div>
+                    <div>Lectures: ${lectureCount} | Labs: ${labCount}</div>
+                </div>
+                <table class="timetable">
+                    <thead>
+                        <tr>
+                            <th>Day</th>
+                            <th>Time</th>
+                            <th>Course</th>
+                            <th>Instructor</th>
+                            <th>Class</th>
+                            <th>Type</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+            `;
+            
+            Object.keys(classesByDay).forEach(day => {
+                classesByDay[day].forEach((cls, index) => {
+                    timetableHTML += `
+                        <tr>
+                            ${index === 0 ? `<td rowspan="${classesByDay[day].length}">${day}</td>` : ''}
+                            <td class="time-slot">${formatTime(cls.startTime)} - ${formatTime(cls.endTime)}</td>
+                            <td class="lecture-info">
+                                <div class="course-name">${cls.courseName}</div>
+                            </td>
+                            <td class="instructor">${cls.instructor}</td>
+                            <td class="class">${cls.class}</td>
+                            <td><span class="type type-${cls.type.toLowerCase()}">${cls.type}</span></td>
+                        </tr>
+                    `;
+                });
+            });
+            
+            timetableHTML += `
+                    </tbody>
+                </table>
+            `;
+            
+            timetableContent.innerHTML = timetableHTML;
+        }
+
+        // Initialize the page
+        function init() {
+            const venueSelect = document.getElementById('venue-select');
+            const dayButtons = document.querySelectorAll('.day-btn');
+            
+            // Extract venues and populate dropdown
+            const venues = extractVenues(facultyData);
+            venues.forEach(venue => {
+                const option = document.createElement('option');
+                option.value = venue;
+                option.textContent = venue;
+                venueSelect.appendChild(option);
+            });
+            
+            // Handle venue selection
+            venueSelect.addEventListener('change', function() {
+                const selectedVenue = this.value;
+                const activeDay = document.querySelector('.day-btn.active').dataset.day;
+                
+                if (selectedVenue) {
+                    const classes = getClassesForVenue(facultyData, selectedVenue, activeDay === 'all' ? 'all' : activeDay);
+                    renderTimetable(selectedVenue, classes);
+                } else {
+                    document.getElementById('venue-title').textContent = 'Select a Venue';
+                    document.getElementById('venue-subtitle').textContent = 'Please select a venue from the dropdown to view its timetable';
+                    document.getElementById('timetable-content').innerHTML = `
+                        <div class="no-classes">
+                            No venue selected. Please choose a venue from the dropdown above.
+                        </div>
+                    `;
+                }
+            });
+            
+            // Handle day filtering
+            dayButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    // Update active button
+                    dayButtons.forEach(btn => btn.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    // Update timetable if a venue is selected
+                    const selectedVenue = venueSelect.value;
+                    if (selectedVenue) {
+                        const activeDay = this.dataset.day;
+                        const classes = getClassesForVenue(facultyData, selectedVenue, activeDay === 'all' ? 'all' : activeDay);
+                        renderTimetable(selectedVenue, classes);
+                    }
+                });
+            });
+            
+            // Select first venue by default if available
+            if (venues.length > 0) {
+                venueSelect.value = venues[0];
+                const classes = getClassesForVenue(facultyData, venues[0]);
+                renderTimetable(venues[0], classes);
+            }
+        }
+
+        // Initialize when DOM is loaded
+        document.addEventListener('DOMContentLoaded', init);
+    </script>
+</body>
+</html>

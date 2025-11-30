@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty Schedule Viewer</title>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eaeaea;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .description {
+            color: #7f8c8d;
+            font-size: 16px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .controls {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        
+        .search-box {
+            flex: 1;
+            min-width: 300px;
+            position: relative;
+        }
+        
+        .search-box input {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+        
+        .search-box input:focus {
+            border-color: #3498db;
+            outline: none;
+        }
+        
+        .filter-section {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        
+        select {
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: white;
+            font-size: 16px;
+            cursor: pointer;
+            min-width: 150px;
+        }
+        
+        .action-buttons {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .btn {
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .btn-primary {
+            background-color: #3498db;
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background-color: #2980b9;
+        }
+        
+        .btn-secondary {
+            background-color: #2ecc71;
+            color: white;
+        }
+        
+        .btn-secondary:hover {
+            background-color: #27ae60;
+        }
+        
+        .stats {
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            color: #7f8c8d;
+            font-size: 14px;
+        }
+        
+        .table-container {
+            overflow-x: auto;
+            border-radius: 8px;
+            border: 1px solid #eaeaea;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            min-width: 1000px;
+        }
+        
+        thead {
+            background-color: #3498db;
+            color: white;
+        }
+        
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #eaeaea;
+        }
+        
+        th {
+            font-weight: 600;
+            position: sticky;
+            top: 0;
+        }
+        
+        tbody tr:hover {
+            background-color: #f8f9fa;
+        }
+        
+        .instructor-name {
+            font-weight: 600;
+            color: #2c3e50;
+        }
+        
+        .day-schedule {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        
+        .lecture-item {
+            background-color: #e8f4fc;
+            padding: 10px;
+            border-radius: 4px;
+            font-size: 14px;
+            border-left: 3px solid #3498db;
+        }
+        
+        .lecture-item.lab {
+            background-color: #e8f6f3;
+            border-left-color: #2ecc71;
+        }
+        
+        .lecture-time {
+            font-weight: 600;
+            color: #2c3e50;
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        .lecture-type {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 12px;
+            margin-right: 5px;
+            background-color: #3498db;
+            color: white;
+        }
+        
+        .lecture-type.lab {
+            background-color: #2ecc71;
+        }
+        
+        .course-name {
+            font-weight: 600;
+            margin: 5px 0;
+            color: #2c3e50;
+        }
+        
+        .batch-info, .venue-info {
+            font-size: 13px;
+            color: #7f8c8d;
+            margin-top: 3px;
+        }
+        
+        .no-data {
+            text-align: center;
+            padding: 20px;
+            color: #7f8c8d;
+            font-style: italic;
+        }
+        
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            color: #7f8c8d;
+            font-size: 14px;
+            padding-top: 20px;
+            border-top: 1px solid #eaeaea;
+        }
+        
+        @media (max-width: 768px) {
+            .controls {
+                flex-direction: column;
+            }
+            
+            .search-box {
+                min-width: 100%;
+            }
+            
+            .filter-section {
+                width: 100%;
+            }
+            
+            select {
+                flex: 1;
+            }
+            
+            .action-buttons {
+                flex-direction: column;
+            }
+            
+            .btn {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Faculty TimeTable</h1>
+            <p class="description">Browse through faculty schedules. Filter by department, venue, or instructor to find specific information.</p>
+        </header>
+        
+        <div class="controls">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search by instructor name, course, or venue...">
+            </div>
+            
+            <div class="filter-section">
+                <select id="departmentFilter">
+                    <option value="">All Departments</option>
+                </select>
+                
+                <!-- <select id="dayFilter">
+                    <option value="">All Days</option>
+                    <option value="Monday">Monday</option>
+                    <option value="Tuesday">Tuesday</option>
+                    <option value="Wednesday">Wednesday</option>
+                    <option value="Thursday">Thursday</option>
+                    <option value="Friday">Friday</option>
+                </select> -->
+                
+                <select id="venueFilter">
+                    <option value="">All Venues</option>
+                </select>
+            </div>
+        </div>
+        
+        <!-- <div class="action-buttons">
+            <button id="downloadBtn" class="btn btn-primary">
+                <i class="fas fa-download"></i> Download as PNG
+            </button>
+            <button id="printBtn" class="btn btn-secondary">
+                <i class="fas fa-print"></i> Print Schedule
+            </button>
+        </div> -->
+        
+        <div class="stats">
+            <div id="totalCount">Total Faculty: 0</div>
+            <div id="filteredCount">Showing: 0</div>
+        </div>
+        
+        <div class="table-container">
+            <table id="scheduleTable">
+                <thead>
+                    <tr>
+                        <th>Instructor</th>
+                        <th>Monday</th>
+                        <th>Tuesday</th>
+                        <th>Wednesday</th>
+                        <th>Thursday</th>
+                        <th>Friday</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                    <!-- Data will be populated here -->
+                </tbody>
+            </table>
+        </div>
+        
+        <!-- <footer>
+            <p>Faculty Schedule Data - Generated from JSON</p>
+        </footer> -->
+    </div>
+
+    <script>
+        let facultyData = [];
+
+        fetch('data.json')
+        .then(response => {
+            if (!response.ok) throw new Error('Failed to load faculty data');
+            return response.json();
+        })
+        .then(data => {
+            facultyData = data;
+            initializeTable();
+            setupFilters();
+        })
+        .catch(error => console.error('Error loading data.json:', error));
+
+        function initializeTable() {
+        const tableBody = document.getElementById('tableBody');
+        tableBody.innerHTML = '';
+
+        populateFilters();
+
+        facultyData.forEach(faculty => {
+            const row = document.createElement('tr');
+            const instructorCell = document.createElement('td');
+            instructorCell.innerHTML = `<span class="instructor-name">${faculty.Instructor}</span>`;
+            row.appendChild(instructorCell);
+
+            const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
+            days.forEach(day => {
+            const dayCell = document.createElement('td');
+            const daySchedule = document.createElement('div');
+            daySchedule.className = 'day-schedule';
+
+            if (faculty[day]?.length) {
+                faculty[day].forEach(lecture => {
+                const lectureItem = document.createElement('div');
+                lectureItem.className = `lecture-item ${lecture.type === 'Lab' ? 'lab' : ''}`;
+                lectureItem.innerHTML = `
+                    <span class="lecture-time">${lecture['start-time']} - ${lecture['end-time']}</span>
+                    <span class="lecture-type ${lecture.type === 'Lab' ? 'lab' : ''}">${lecture.type}</span>
+                    <div class="course-name">${lecture.CourseName}</div>
+                    <div class="batch-info">${lecture.Class}</div>
+                    <div class="venue-info">${lecture.Venue}</div>`;
+                daySchedule.appendChild(lectureItem);
+                });
+            } else {
+                daySchedule.innerHTML = '<div class="no-data">No classes</div>';
+            }
+
+            dayCell.appendChild(daySchedule);
+            row.appendChild(dayCell);
+            });
+            tableBody.appendChild(row);
+        });
+
+        updateStats(facultyData.length, facultyData.length);
+        }
+
+        function populateFilters() {
+        const departmentFilter = document.getElementById('departmentFilter');
+        const venueFilter = document.getElementById('venueFilter');
+        const departments = new Set();
+        const venues = new Set();
+
+        facultyData.forEach(faculty => {
+            const deptMatch = faculty.Instructor.match(/^[A-Za-z]+/);
+            if (deptMatch) departments.add(deptMatch[0]);
+            ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'].forEach(day => {
+            faculty[day]?.forEach(lecture => {
+                if (lecture.Venue && lecture.Venue !== 'Unknown') venues.add(lecture.Venue);
+            });
+            });
+        });
+
+        departmentFilter.innerHTML = `<option value="">All Departments</option>`;
+        venueFilter.innerHTML = `<option value="">All Venues</option>`;
+        departments.forEach(d => departmentFilter.innerHTML += `<option value="${d}">${d}</option>`);
+        venues.forEach(v => venueFilter.innerHTML += `<option value="${v}">${v}</option>`);
+        }
+
+        function setupFilters() {
+        document.getElementById('searchInput').addEventListener('input', filterTable);
+        document.getElementById('departmentFilter').addEventListener('change', filterTable);
+        document.getElementById('venueFilter').addEventListener('change', filterTable);
+        }
+
+        function filterTable() {
+        const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+        const departmentFilter = document.getElementById('departmentFilter').value.toLowerCase();
+        const venueFilter = document.getElementById('venueFilter').value;
+        const rows = document.querySelectorAll('#tableBody tr');
+        let visibleCount = 0;
+
+        rows.forEach(row => {
+            const instructorName = row.querySelector('.instructor-name').textContent.toLowerCase();
+            const courseNames = Array.from(row.querySelectorAll('.course-name')).map(c => c.textContent.toLowerCase());
+            const venues = Array.from(row.querySelectorAll('.venue-info')).map(v => v.textContent);
+            let showRow = true;
+
+            if (searchTerm && !instructorName.includes(searchTerm) && !courseNames.some(c => c.includes(searchTerm)) && !venues.some(v => v.toLowerCase().includes(searchTerm))) {
+            showRow = false;
+            }
+            if (departmentFilter && !instructorName.includes(departmentFilter)) {
+            showRow = false;
+            }
+            if (venueFilter && !venues.includes(venueFilter)) {
+            showRow = false;
+            }
+
+            row.style.display = showRow ? '' : 'none';
+            if (showRow) visibleCount++;
+        });
+
+        updateStats(facultyData.length, visibleCount);
+        }
+
+        function updateStats(total, visible) {
+        document.getElementById('totalCount').textContent = `Total Faculty: ${total}`;
+        document.getElementById('filteredCount').textContent = `Showing: ${visible}`;
+        }
+    </script>
+</body>
+</html>

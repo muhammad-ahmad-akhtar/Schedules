@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room Availability Search</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: linear-gradient(135deg, #3498db, #2c3e50);
+            color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            margin-bottom: 10px;
+            font-size: 2.2rem;
+        }
+        
+        .subtitle {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        
+        .search-filters {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 25px;
+            margin-bottom: 30px;
+        }
+        
+        .filter-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .filter-group {
+            flex: 1;
+            min-width: 200px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #2c3e50;
+        }
+        
+        select, input {
+            width: 100%;
+            padding: 10px 12px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 1rem;
+            background-color: #f9f9f9;
+        }
+        
+        .button-group {
+            display: flex;
+            gap: 15px;
+            margin-top: 10px;
+        }
+        
+        button {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 4px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .search-btn {
+            background-color: #3498db;
+            color: white;
+        }
+        
+        .search-btn:hover {
+            background-color: #2980b9;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        
+        .reset-btn {
+            background-color: #e74c3c;
+            color: white;
+        }
+        
+        .reset-btn:hover {
+            background-color: #c0392b;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        
+        .results-section {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 25px;
+        }
+        
+        .results-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .results-count {
+            color: #7f8c8d;
+            font-weight: 600;
+        }
+        
+        .rooms-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        
+        .room-card {
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .room-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .room-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .room-name {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #2c3e50;
+        }
+        
+        .availability-badge {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+        
+        .available {
+            background-color: #d4edda;
+            color: #155724;
+        }
+        
+        .occupied {
+            background-color: #f8d7da;
+            color: #721c24;
+        }
+        
+        .time-slots {
+            margin-top: 15px;
+        }
+        
+        .time-slot {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            margin-bottom: 8px;
+            background-color: #f8f9fa;
+            border-radius: 4px;
+            border-left: 4px solid #3498db;
+        }
+        
+        .time-range {
+            font-weight: 600;
+            color: #2c3e50;
+        }
+        
+        .duration {
+            color: #7f8c8d;
+            font-size: 0.9rem;
+        }
+        
+        .no-slots {
+            text-align: center;
+            padding: 15px;
+            color: #7f8c8d;
+            font-style: italic;
+        }
+        
+        .no-results {
+            text-align: center;
+            padding: 40px;
+            color: #7f8c8d;
+            grid-column: 1 / -1;
+        }
+        
+        .instructions {
+            background-color: #e8f4fc;
+            border-left: 4px solid #3498db;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+        }
+        
+        .instructions h3 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .instructions p {
+            margin-bottom: 8px;
+        }
+        
+        .time-visualization {
+            margin-top: 10px;
+            height: 8px;
+            background-color: #ecf0f1;
+            border-radius: 4px;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .available-time {
+            height: 100%;
+            background-color: #2ecc71;
+            position: absolute;
+        }
+        
+        @media (max-width: 768px) {
+            .filter-row {
+                flex-direction: column;
+            }
+            
+            .filter-group {
+                min-width: 100%;
+            }
+            
+            .button-group {
+                flex-direction: column;
+            }
+            
+            .rooms-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Room Availability Search</h1>
+            <p class="subtitle">Find available time slots when rooms are not scheduled for classes</p>
+        </header>
+        
+        <div class="instructions">
+            <h3>How to Use</h3>
+            <p>1. Select a day and time range to search for available rooms</p>
+            <p>2. Optionally filter by block or specific room</p>
+            <p>3. Results will show time slots when selected rooms have no classes scheduled</p>
+        </div>
+        
+        <section class="search-filters">
+            <div class="filter-row">
+                <div class="filter-group">
+                    <label for="day">Day</label>
+                    <select id="day">
+                        <option value="Monday">Monday</option>
+                        <option value="Tuesday">Tuesday</option>
+                        <option value="Wednesday">Wednesday</option>
+                        <option value="Thursday">Thursday</option>
+                        <option value="Friday">Friday</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="start-time">Start Time</label>
+                    <input type="time" id="start-time" min="08:30" max="20:30" step="1800" value="08:30">
+                </div>
+                
+                <div class="filter-group">
+                    <label for="end-time">End Time</label>
+                    <input type="time" id="end-time" min="08:30" max="20:30" step="1800" value="20:30">
+                </div>
+            </div>
+            
+            <div class="filter-row">
+                <div class="filter-group">
+                    <label for="block">Block</label>
+                    <select id="block">
+                        <option value="">All Blocks</option>
+                        <option value="A">A Block</option>
+                        <option value="B">B Block</option>
+                        <option value="C">C Block</option>
+                        <option value="D">D Block</option>
+                        <option value="N">N Block</option>
+                        <option value="O">O Block</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="room">Specific Room</label>
+                    <input type="text" id="room" placeholder="e.g., A-17, B-5">
+                </div>
+            </div>
+            
+            <div class="button-group">
+                <button class="search-btn" id="search-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" style="margin-right: 8px;">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                    </svg>
+                    Find Available Rooms
+                </button>
+                <button class="reset-btn" id="reset-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" style="margin-right: 8px;">
+                        <path d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2v1z"/>
+                        <path d="M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466z"/>
+                    </svg>
+                    Reset Filters
+                </button>
+            </div>
+        </section>
+        
+        <section class="results-section">
+            <div class="results-header">
+                <h2>Available Rooms</h2>
+                <div class="results-count" id="results-count">0 rooms with available slots</div>
+            </div>
+            
+            <div class="rooms-container" id="rooms-container">
+                <!-- Room cards will be populated here -->
+            </div>
+        </section>
+    </div>
+
+    <script>
+        let scheduleData = [];
+
+        fetch('data.json')
+        .then(response => {
+            if (!response.ok) throw new Error('Failed to load faculty data');
+            return response.json();
+        })
+        .then(data => {
+            scheduleData = data;
+            findAvailableSlots();
+        })
+        .catch(error => console.error('Error loading data.json:', error)); 
+
+        // DOM elements
+        const dayFilter = document.getElementById('day');
+        const startTimeFilter = document.getElementById('start-time');
+        const endTimeFilter = document.getElementById('end-time');
+        const blockFilter = document.getElementById('block');
+        const roomFilter = document.getElementById('room');
+        const searchBtn = document.getElementById('search-btn');
+        const resetBtn = document.getElementById('reset-btn');
+        const roomsContainer = document.getElementById('rooms-container');
+        const resultsCount = document.getElementById('results-count');
+
+        // EVvent listeners for filters
+        startTimeFilter.addEventListener('change', () => {
+            const time = startTimeFilter.value;
+            if (time < '08:30' || time > '20:30') {
+                alert('Select a time between 08:30 AM and 08:30 PM.');
+                input.value = '08:30';
+            }
+        });
+
+        endTimeFilter.addEventListener('change', () => {
+            const time = endTimeFilter.value;
+            if (time < '08:30' || time > '20:30') {
+                alert('Select a time between 08:30 AM and 08:30 PM.');
+                input.value = '20:30';
+            }
+        });
+
+        // Function to convert time to minutes for comparison
+        function timeToMinutes(timeStr) {
+            if (!timeStr) return 0;
+            const [hours, minutes] = timeStr.split(':').map(Number);
+            return hours * 60 + minutes;
+        }
+
+        // Function to format minutes back to time string
+        function minutesToTime(minutes) {
+            const hours = Math.floor(minutes / 60);
+            const mins = minutes % 60;
+            return `${hours.toString().padStart(2, '0')}:${mins.toString().padStart(2, '0')}`;
+        }
+
+        // Function to calculate duration in hours and minutes
+        function calculateDuration(startMinutes, endMinutes) {
+            const durationMinutes = endMinutes - startMinutes;
+            const hours = Math.floor(durationMinutes / 60);
+            const minutes = durationMinutes % 60;
+            
+            if (hours > 0 && minutes > 0) {
+                return `${hours}h ${minutes}m`;
+            } else if (hours > 0) {
+                return `${hours}h`;
+            } else {
+                return `${minutes}m`;
+            }
+        }
+
+        // Function to find available time slots
+        function findAvailableSlots() {
+            const selectedDay = dayFilter.value;
+            const startTime = startTimeFilter.value;
+            const endTime = endTimeFilter.value;
+            const selectedBlock = blockFilter.value;
+            const roomQuery = roomFilter.value.toLowerCase().trim();
+
+            // Clear previous results
+            roomsContainer.innerHTML = '';
+            
+            // Convert times to minutes
+            const searchStartMinutes = timeToMinutes(startTime);
+            const searchEndMinutes = timeToMinutes(endTime);
+            
+            // Get all unique rooms from the data
+            const allRooms = new Set();
+            scheduleData.forEach(instructor => {
+                Object.keys(instructor).forEach(day => {
+                    if (day === 'Instructor') return;
+                    
+                    instructor[day].forEach(lecture => {
+                        allRooms.add(lecture.Venue);
+                    });
+                });
+            });
+            
+            // Filter rooms based on block and specific room query
+            const filteredRooms = Array.from(allRooms).filter(room => {
+                if (selectedBlock && !room.includes(selectedBlock)) return false;
+                if (roomQuery && !room.toLowerCase().includes(roomQuery)) return false;
+                return true;
+            });
+            
+            let roomsWithSlots = [];
+            
+            // For each room, find available time slots on the selected day
+            filteredRooms.forEach(room => {
+                // Get all lectures for this room on the selected day
+                const roomLectures = [];
+                
+                scheduleData.forEach(instructor => {
+                    if (instructor[selectedDay]) {
+                        instructor[selectedDay].forEach(lecture => {
+                            if (lecture.Venue === room) {
+                                roomLectures.push({
+                                    start: timeToMinutes(lecture['start-time']),
+                                    end: timeToMinutes(lecture['end-time'])
+                                });
+                            }
+                        });
+                    }
+                });
+                
+                // Sort lectures by start time
+                roomLectures.sort((a, b) => a.start - b.start);
+                
+                // Find available time slots
+                let currentTime = searchStartMinutes;
+                const slots = [];
+                
+                // Add slots before first lecture
+                if (roomLectures.length > 0 && roomLectures[0].start > currentTime) {
+                    slots.push({
+                        start: currentTime,
+                        end: roomLectures[0].start
+                    });
+                }
+                
+                // Add slots between lectures
+                for (let i = 0; i < roomLectures.length - 1; i++) {
+                    if (roomLectures[i].end < roomLectures[i + 1].start) {
+                        slots.push({
+                            start: roomLectures[i].end,
+                            end: roomLectures[i + 1].start
+                        });
+                    }
+                }
+                
+                // Add slot after last lecture
+                if (roomLectures.length > 0) {
+                    const lastLecture = roomLectures[roomLectures.length - 1];
+                    if (lastLecture.end < searchEndMinutes) {
+                        slots.push({
+                            start: lastLecture.end,
+                            end: searchEndMinutes
+                        });
+                    }
+                }
+                
+                // If no lectures, the entire time range is available
+                if (roomLectures.length === 0) {
+                    slots.push({
+                        start: searchStartMinutes,
+                        end: searchEndMinutes
+                    });
+                }
+                
+                // Filter slots that are at least 30 minutes long
+                const validSlots = slots.filter(slot => (slot.end - slot.start) >= 30);
+                
+                // Add to results if there are valid slots
+                if (validSlots.length > 0) {
+                    roomsWithSlots.push({
+                        room: room,
+                        slots: validSlots.map(slot => ({
+                            start: slot.start,
+                            end: slot.end,
+                            duration: calculateDuration(slot.start, slot.end)
+                        }))
+                    });
+                }
+            });
+            
+            // Display results
+            if (roomsWithSlots.length === 0) {
+                roomsContainer.innerHTML = `
+                    <div class="no-results">
+                        No available rooms found matching your criteria. Try adjusting your filters.
+                    </div>
+                `;
+            } else {
+                roomsWithSlots.forEach(roomData => {
+                    const roomCard = document.createElement('div');
+                    roomCard.className = 'room-card';
+                    
+                    let timeSlotsHTML = '';
+                    roomData.slots.forEach(slot => {
+                        timeSlotsHTML += `
+                            <div class="time-slot">
+                                <div class="time-range">${minutesToTime(slot.start)} - ${minutesToTime(slot.end)}</div>
+                                <div class="duration">${slot.duration}</div>
+                            </div>
+                        `;
+                    });
+                    
+                    roomCard.innerHTML = `
+                        <div class="room-header">
+                            <div class="room-name">${roomData.room}</div>
+                            <span class="availability-badge available">${roomData.slots.length} slots</span>
+                        </div>
+                        <div class="time-visualization">
+                            <div class="available-time" style="width: 100%"></div>
+                        </div>
+                        <div class="time-slots">
+                            ${timeSlotsHTML || '<div class="no-slots">No available time slots</div>'}
+                        </div>
+                    `;
+                    
+                    roomsContainer.appendChild(roomCard);
+                });
+            }
+            
+            // Update results count
+            resultsCount.textContent = `${roomsWithSlots.length} rooms with available slots`;
+        }
+
+        // Function to reset all filters
+        function resetFilters() {
+            dayFilter.value = 'Monday';
+            startTimeFilter.value = '08:00';
+            endTimeFilter.value = '20:00';
+            blockFilter.value = '';
+            roomFilter.value = '';
+            findAvailableSlots();
+        }
+
+        // Event listeners
+        searchBtn.addEventListener('click', findAvailableSlots);
+        resetBtn.addEventListener('click', resetFilters);
+
+        // Initial load - show available slots for Monday
+        findAvailableSlots();
+    </script>
+</body>
+</html>

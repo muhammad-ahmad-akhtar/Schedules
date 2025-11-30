@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedules | COMSATS-lhr</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="static/favicon.svg" type="image/png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+        }
+        
+        :root {
+            --primary: #1a2a6c;
+            --primary-light: #2a4b8c;
+            --secondary: #3a6bc8;
+            --accent: #4a8be8;
+            --light: #5aabf8;
+            --dark: #0d1a4a;
+            --text: #2d3748;
+            --text-light: #718096;
+            --bg: #f7fafc;
+            --card-bg: #ffffff;
+            --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            --shadow-hover: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+            --footer-bg: linear-gradient(135deg, var(--accent), var(--light));
+            --footer-text: #2d3748;
+        }
+        
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem 0;
+            flex: 1;
+        }
+        
+        .page-header {
+            text-align: center;
+            margin-bottom: 2rem;
+            padding-top: 0rem;
+            position: relative;
+        }
+        
+        .version-chip {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background: linear-gradient(135deg, var(--accent), var(--light));
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            box-shadow: 0 4px 12px rgba(74, 139, 232, 0.3);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .page-header h1 {
+            font-size: 2.3rem;
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+        
+        .page-header p {
+            color: var(--text-light);
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 2rem;
+        }
+        
+        .service-card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-hover);
+        }
+        
+        .card-header {
+            padding: 1.5rem 1.5rem 1rem;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .card-icon {
+            width: 60px;
+            height: 60px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            color: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .service-card:hover .card-icon {
+            transform: scale(1.1);
+        }
+        
+        .card-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: var(--primary);
+        }
+        
+        .card-content {
+            padding: 0 1.5rem 1.5rem;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .card-content p {
+            color: var(--text-light);
+            margin-bottom: 1.5rem;
+            flex: 1;
+        }
+        
+        .card-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: auto;
+        }
+        
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--primary);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            font-size: 0.95rem;
+        }
+        
+        .btn:hover {
+            background: var(--dark);
+            transform: translateY(-2px);
+        }
+        
+        .btn i {
+            font-size: 0.9rem;
+            transition: transform 0.3s ease;
+        }
+        
+        .btn:hover i {
+            transform: translateX(3px);
+        }
+
+        .feature-badge {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: var(--accent);
+            color: white;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+        
+        /* Floating Island Footer Styles */
+        footer {
+            background: var(--footer-bg);
+            color: var(--footer-text);
+            margin: 3rem auto 2rem;
+            width: 90%;
+            max-width: 1000px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            position: relative;
+            z-index: 10;
+        }
+        
+        .footer-content {
+            padding: 2.5rem 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .footer-main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            margin-bottom: 0rem;
+        }
+        
+        .footer-links {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .footer-link {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--footer-text);
+            text-decoration: none;
+            padding: 12px 20px;
+            border-radius: 12px;
+            transition: all 0.3s ease;
+            font-weight: 500;
+            background: #ffffff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        }
+        
+        .footer-link:hover {
+            background: rgb(243, 242, 242);
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        .footer-link.whatsapp:hover {
+            color: #25D366;
+        }
+        
+        .footer-link.linkedin:hover {
+            color: #0A66C2;
+        }
+        
+        .footer-link.github:hover {
+            color: #24292E;
+        }
+        
+        .footer-link.software:hover {
+            color: var(--accent);
+        }
+        
+        .footer-divider {
+            width: 100%;
+            height: 1px;
+            background: rgba(0, 0, 0, 0.1);
+            margin: 1.5rem 0;
+        }
+        
+        .footer-bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            color: var(--text-light);
+            font-size: 0.9rem;
+        }
+        
+        .footer-social {
+            display: flex;
+            gap: 15px;
+        }
+        
+        .social-link {
+            color: var(--text-light);
+            font-size: 1.2rem;
+            transition: all 0.3s ease;
+        }
+        
+        .social-link:hover {
+            color: var(--primary);
+            transform: translateY(-3px);
+        }
+        
+        /* Mobile Styles */
+        @media (max-width: 768px) {
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .page-header h1 {
+                font-size: 2rem;
+            }
+            
+            .version-chip {
+                position: relative;
+                top: auto;
+                right: auto;
+                margin: 0 auto 1rem;
+                width: fit-content;
+            }
+            
+            .footer-main {
+                flex-direction: column;
+                gap: 25px;
+            }
+            
+            .footer-links {
+                flex-direction: column;
+                gap: 15px;
+                width: 100%;
+            }
+            
+            .footer-link {
+                justify-content: center;
+            }
+            
+            .footer-bottom {
+                flex-direction: column;
+                gap: 15px;
+                text-align: center;
+            }
+        }
+        
+        /* Animation for page load */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .service-card {
+            animation: fadeInUp 0.5s ease forwards;
+            opacity: 0;
+        }
+        
+        .service-card:nth-child(1) { animation-delay: 0.1s; }
+        .service-card:nth-child(2) { animation-delay: 0.2s; }
+        .service-card:nth-child(3) { animation-delay: 0.3s; }
+        .service-card:nth-child(4) { animation-delay: 0.4s; }
+        .service-card:nth-child(5) { animation-delay: 0.5s; }
+        .service-card:nth-child(6) { animation-delay: 0.6s; }
+    </style>
+    
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="page-header">
+            <div class="version-chip">
+                <i class="fas fa-calendar-alt"></i>
+                SPRING 2026
+            </div>
+            <h1>Schedules for Comsats-LHR</h1>
+            <p>A comprehensive solution for managing academic schedules, room availability, and faculty timetables with ease and efficiency.</p>
+        </div>
+
+        <main>
+            <div class="services-grid">
+
+                <!-- Room Finder -->
+                <div class="service-card">
+                    <div class="feature-badge">Improved</div>
+                    <div class="card-header">
+                        <div class="card-icon" style="background: linear-gradient(135deg, var(--primary), var(--primary-light));">
+                            <i class="fas fa-door-open"></i>
+                        </div>
+                        <h3 class="card-title">Room Finder</h3>
+                    </div>
+                    <div class="card-content">
+                        <p>Quickly locate available lecture rooms and labs that are empty based on your preferred time slots, and day.</p>
+                        <div class="card-footer">
+                            <a href="finder.html" class="btn">Find Rooms <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Faculty Timetable -->
+                <div class="service-card">
+                    <div class="card-header">
+                        <div class="card-icon" style="background: linear-gradient(135deg, var(--primary-light), var(--secondary));">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                        </div>
+                        <h3 class="card-title">Faculty Timetable</h3>
+                    </div>
+                    <div class="card-content">
+                        <p>View teaching schedules for all faculty members across different departments, quickly and neately.</p>
+                        <div class="card-footer">
+                            <a href="faculty.html" class="btn">View Schedules <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Timetable Optimizer -->
+                <div class="service-card">
+                    <div class="feature-badge">New</div>
+                    <div class="card-header">
+                        <div class="card-icon" style="background: linear-gradient(135deg, var(--secondary), var(--accent));">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h3 class="card-title">Timetable Optimizer</h3>
+                    </div>
+                    <div class="card-content">
+                        <p>Get quick suggestion for changing timeslots, our algorithms minimize conflicts and maximize time-saving.</p>
+                        <div class="card-footer">
+                            <a href="optimizer.html" class="btn">Optimize Now <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Room Timetable -->
+                <div class="service-card">
+                    <div class="card-header">
+                        <div class="card-icon" style="background: linear-gradient(135deg, var(--accent), var(--light));">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <h3 class="card-title">Room Timetable</h3>
+                    </div>
+                    <div class="card-content">
+                        <p>Check the complete schedule for each classroom across campus.</p>
+                        <div class="card-footer">
+                            <a href="room.html" class="btn">View Schedules <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Class Timetable -->
+                <div class="service-card">
+                    <div class="card-header">
+                        <div class="card-icon" style="background: linear-gradient(135deg, #6a4c93, #8a6caf);">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <h3 class="card-title">Class Timetable</h3>
+                    </div>
+                    <div class="card-content">
+                        <p>Access class schedules for different student batches (programs) quickly with cleaner UI.</p>
+                        <div class="card-footer">
+                            <a href="class.html" class="btn">View Timetables <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Academic Calendar -->
+                <div class="service-card">
+                    <div class="card-header">
+                        <div class="card-icon" style="background: linear-gradient(135deg, #d35400, #e67e22);">
+                            <i class="fas fa-calendar-day"></i>
+                        </div>
+                        <h3 class="card-title">Academic Calendar</h3>
+                    </div>
+                    <div class="card-content">
+                        <p>View the complete academic calendar with important dates, holidays, and semester events.</p>
+                        <div class="card-footer">
+                            <a href="academic.html" class="btn">View Calendar <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+    </div>
+    
+    <footer>
+        <div class="footer-content">
+            <div class="footer-main">
+                <div class="footer-links">
+                    <a href="https://wa.me/+923447778957?text=Hi%20there!%20I%20visited%20your%20website%20(https://schedules.pages.dev/),%20its%20amazing.%20I%20would%20like%20to%20connect%20with%20you." class="footer-link whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                        Let's Connect
+                    </a>
+                    <a href="https://github.com/muhammad-ahmad-akhtar/schedules-comsats-lhr" class="footer-link github" target="_blank">
+                        <i class="fab fa-github"></i>
+                        Source Code
+                    </a>
+                    <a href="https://linkedin.com/in/360akhtar" class="footer-link linkedin" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                        LinkedIn
+                    </a>
+                    <a href="mailto:FA24-BCS-061@cuilahore.edu.pk?subject=Software Development Request&body=Hi, I visited your website (schedules.pages.dev), its amazing. I would like to request a software development project. Here are the details: " class="footer-link software">
+                        <i class="fas fa-code"></i>
+                        Build me a software
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        // Add interactive functionality to cards
+        document.addEventListener('DOMContentLoaded', function() {
+            const cards = document.querySelectorAll('.service-card');
+            
+            cards.forEach(card => {
+                card.addEventListener('click', function(e) {
+                    if (!e.target.classList.contains('btn')) {
+                        this.querySelector('.btn').click();
+                    }
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>

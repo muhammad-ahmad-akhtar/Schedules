@@ -36,7 +36,7 @@ Follow these instructions to set up the project locally on your machine.
 1.  **Clone the repository**
     ```bash
     git clone [https://github.com/muhammad-ahmad-akhtar/Schedules.git](https://github.com/muhammad-ahmad-akhtar/Schedules.git)
-    cd comsats-schedules
+    cd Schedules
     ```
 
 4.  Open main html file in your browser.

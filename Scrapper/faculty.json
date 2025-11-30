@@ -1,0 +1,5379 @@
+[
+    {
+        "Page": 53,
+        "Instructor": "CS-Aamer Mehmood",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 376.8,
+                "end-time-slot": 434.28,
+                "start-time": "13:30",
+                "end-time": "14:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "MAD(G1) FA23-BCS-A/ FA23-BCS-B/ FA23-BCS-C/",
+                "Class": "FA23-BCS-D",
+                "Venue": "N-9"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 434.28,
+                "end-time-slot": 491.88,
+                "start-time": "14:30",
+                "end-time": "15:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "FA23-BMSAE-DA(/G2) FA23-BSE-B/ FA23-BSE-C/ FA23-BSE-D/ FA23-BCS-A/ FA23-BCS-B/ FA23-BCS-C/ FA23-BCS-D/ SP23-BCS-A/ SP23-BCS-B/N-4 SP23-BCS-C",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Tuesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 434.28,
+                "end-time-slot": 606.96,
+                "start-time": "14:30",
+                "end-time": "17:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-MAD(G1) FA23-BCS-A/FA23-BCS-B/FA23-BCS-C/FA23-BCS-D CS Lab-G (C-1)",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 376.8,
+                "end-time-slot": 434.28,
+                "start-time": "13:30",
+                "end-time": "14:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "MAD(G1) FA23-BCS-A/ FA23-BCS-B/ FA23-BCS-C/",
+                "Class": "FA23-BCS-D",
+                "Venue": "N-17"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 434.28,
+                "end-time-slot": 491.88,
+                "start-time": "14:30",
+                "end-time": "15:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "FA23-BMSAE-DA(/G2) FA23-BSE-B/ FA23-BSE-C/ FA23-BSE-D/ FA23-BCS-A/ FA23-BCS-B/ FA23-BCS-C/ FA23-BCS-D/ SP23-BCS-A/ SP23-BCS-B/N-4 SP23-BCS-C",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Thursday": [],
+        "Friday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 175.32,
+                "end-time-slot": 348.0,
+                "start-time": "10:00",
+                "end-time": "13:00",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-MAD(G2) FA23-BSE-A/FA23-BSE-B/FA23-BSE-C/FA23-BSE-D/ FA23-BCS-A/FA23-BCS-B/FA23-BCS-C/FA23-BCS-D/ SP23-BCS-A/SP23-BCS-B/SP23-BCS-C CS Lab-G (C-1)",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ]
+    },
+    {
+        "Page": 54,
+        "Instructor": "CS-Abdul Karim Shahid",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 348.0,
+                "end-time-slot": 434.28,
+                "start-time": "13:00",
+                "end-time": "14:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Object Oriented Programming SP25-BSE-B N-17",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 434.28,
+                "end-time-slot": 520.68,
+                "start-time": "14:30",
+                "end-time": "16:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Object Oriented Programming SP25-BSE-A N-17",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Tuesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 348.0,
+                "start-time": "11:30",
+                "end-time": "13:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Object Oriented Programming SP25-BSE-B N-25-B",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 434.28,
+                "end-time-slot": 606.96,
+                "start-time": "14:30",
+                "end-time": "17:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Object Oriented Programming SP25-BSE-B SE Lab-J (C-9)",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 319.2,
+                "end-time-slot": 405.48,
+                "start-time": "12:30",
+                "end-time": "14:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Object Oriented Programming SP25-BSE-A N-23",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 434.28,
+                "end-time-slot": 606.96,
+                "start-time": "14:30",
+                "end-time": "17:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Object Oriented Programming SP25-BSE-A SE Lab-A (C-18)",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Thursday": [],
+        "Friday": []
+    },
+    {
+        "Page": 55,
+        "Instructor": "CS-Abdul Qayyum",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 261.6,
+                "start-time": "8:30",
+                "end-time": "11:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Database Systems SP24-BAI-A CS Lab-I (C-14)",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Tuesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 434.28,
+                "start-time": "11:30",
+                "end-time": "14:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Database Systems SP24-BSE-A SE Lab-B (C-19)",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 434.28,
+                "start-time": "11:30",
+                "end-time": "14:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Database Systems SP24-BSE-B SE Lab-J (C-9)",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Thursday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 348.0,
+                "end-time-slot": 434.28,
+                "start-time": "13:00",
+                "end-time": "14:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Database Systems SP24-BSE-B N-8",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 520.68,
+                "end-time-slot": 606.96,
+                "start-time": "16:00",
+                "end-time": "17:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Database Systems SP24-BSE-A N-25-B",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Friday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 348.0,
+                "start-time": "11:30",
+                "end-time": "13:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Database Systems SP24-BSE-B N-11",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 434.28,
+                "end-time-slot": 520.68,
+                "start-time": "14:30",
+                "end-time": "16:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Database Systems SP24-BSE-A N-24",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ]
+    },
+    {
+        "Page": 56,
+        "Instructor": "CS-Akhzar Nazeer",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 204.12,
+                "end-time-slot": 261.6,
+                "start-time": "10:30",
+                "end-time": "11:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Parallel and Distributed Computing SP23-BCS-C N-16",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 434.28,
+                "end-time-slot": 606.96,
+                "start-time": "14:30",
+                "end-time": "17:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Parallel and Distributed Computing SP23-BAI-A SE Lab-H (C-7)",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Tuesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 175.32,
+                "start-time": "8:30",
+                "end-time": "10:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Professional Practices SP23-BCS-B N-5",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 319.2,
+                "end-time-slot": 376.8,
+                "start-time": "12:30",
+                "end-time": "13:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Parallel and Distributed Computing SP23-BAI-A C-5",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 549.48,
+                "end-time-slot": 606.96,
+                "start-time": "16:30",
+                "end-time": "17:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Parallel and Distributed Computing SP23-BCS-C N-13",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Thursday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 175.32,
+                "start-time": "8:30",
+                "end-time": "10:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Professional Practices SP23-BCS-B N-6",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 261.6,
+                "end-time-slot": 434.28,
+                "start-time": "11:30",
+                "end-time": "14:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Parallel and Distributed Computing SP23-BCS-C CS Lab-E (C-11)",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Friday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 146.52,
+                "start-time": "8:30",
+                "end-time": "9:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Parallel and Distributed Computing SP23-BAI-A N-17",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ]
+    },
+    {
+        "Page": 57,
+        "Instructor": "CS-Amaid Zia",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 175.32,
+                "end-time-slot": 261.6,
+                "start-time": "10:00",
+                "end-time": "11:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Professional Practices SP23-BCS-A N-1",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 434.28,
+                "end-time-slot": 491.88,
+                "start-time": "14:30",
+                "end-time": "15:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "HCI-1",
+                "Class": "FA22-BCS-A",
+                "Venue": "FA22-BCS-B FA22-BCS-C N-2"
+            }
+        ],
+        "Tuesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 175.32,
+                "start-time": "8:30",
+                "end-time": "10:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Professional Practices SP23-BCS-A N-4",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 261.6,
+                "end-time-slot": 348.0,
+                "start-time": "11:30",
+                "end-time": "13:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Professional Practices SP23-BCS-C N-7",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 175.32,
+                "end-time-slot": 261.6,
+                "start-time": "10:00",
+                "end-time": "11:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Professional Practices SP23-BCS-C D-116",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 434.28,
+                "end-time-slot": 491.88,
+                "start-time": "14:30",
+                "end-time": "15:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "HCI-1",
+                "Class": "FA22-BCS-A",
+                "Venue": "FA22-BCS-B FA22-BCS-C N-3"
+            }
+        ],
+        "Thursday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 434.28,
+                "start-time": "11:30",
+                "end-time": "14:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-HCI-1 FA22-BCS-A/FA22-BCS-B/FA22-BCS-C CS Lab-G (C-1)",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Friday": []
+    },
+    {
+        "Page": 58,
+        "Instructor": "CS-Asif Shehzad",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 319.2,
+                "end-time-slot": 376.8,
+                "start-time": "12:30",
+                "end-time": "13:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Web Tech-1 FA23-BCS-A/ FA23-BCS-B/ FA23-BCS-C/",
+                "Class": "FA23-BCS-D",
+                "Venue": "N-6"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 376.8,
+                "end-time-slot": 434.28,
+                "start-time": "13:30",
+                "end-time": "14:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Web Tech-2 FA23-BCS-A/ FA23-BCS-B/ FA23-BCS-C/",
+                "Class": "FA23-BCS-D",
+                "Venue": "N-6"
+            }
+        ],
+        "Tuesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 434.28,
+                "end-time-slot": 606.96,
+                "start-time": "14:30",
+                "end-time": "17:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Web Tech-2 FA23-BCS-A/FA23-BCS-B/FA23-BCS-C/FA23-BCS-D CS Lab-C (C-8)",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 319.2,
+                "end-time-slot": 376.8,
+                "start-time": "12:30",
+                "end-time": "13:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Web Tech-1",
+                "Class": "FA23-BCS-A",
+                "Venue": "FA23-BCS-B FA23-BCS-C FA23-BCS-D N-6"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 376.8,
+                "end-time-slot": 434.28,
+                "start-time": "13:30",
+                "end-time": "14:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Web Tech-2 FA23-BCS-A/ FA23-BCS-B/ FA23-BCS-C/",
+                "Class": "FA23-BCS-D",
+                "Venue": "N-4"
+            }
+        ],
+        "Thursday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 434.28,
+                "end-time-slot": 606.96,
+                "start-time": "14:30",
+                "end-time": "17:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Web Tech-1 FA23-BCS-A/FA23-BCS-B/FA23-BCS-C/FA23-BCS-D CS Lab-G (C-1)",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Friday": []
+    },
+    {
+        "Page": 59,
+        "Instructor": "CS-Asmara Safdar",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 117.72,
+                "end-time-slot": 175.32,
+                "start-time": "9:00",
+                "end-time": "10:00",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Artificial Intelligence SP24-BCS-A N-1",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 348.0,
+                "end-time-slot": 434.28,
+                "start-time": "13:00",
+                "end-time": "14:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Robotics-1 FA22-BCS-A/FA22-BCS-B",
+                "Class": "FA22-BCS-C",
+                "Venue": "C-6"
+            }
+        ],
+        "Tuesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 434.28,
+                "start-time": "11:30",
+                "end-time": "14:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Artificial Intelligence SP24-BAI-A CS Lab-C (C-8)",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 348.0,
+                "end-time-slot": 434.28,
+                "start-time": "13:00",
+                "end-time": "14:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Robotics-1 FA22-BCS-A/FA22-BCS-B",
+                "Class": "FA22-BCS-C",
+                "Venue": "C-6"
+            }
+        ],
+        "Thursday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 319.2,
+                "end-time-slot": 376.8,
+                "start-time": "12:30",
+                "end-time": "13:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Artificial Intelligence SP24-BCS-A C-6",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 434.28,
+                "end-time-slot": 606.96,
+                "start-time": "14:30",
+                "end-time": "17:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Artificial Intelligence SP24-BCS-A CS Lab-C (C-8)",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Friday": []
+    },
+    {
+        "Page": 60,
+        "Instructor": "CS-Ayesha Muqaddas",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 434.28,
+                "start-time": "11:30",
+                "end-time": "14:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Applications of Information & Communication Technologies",
+                "Class": "FA25-BCS-B",
+                "Venue": "CS Lab-I (C-14)"
+            }
+        ],
+        "Tuesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 434.28,
+                "end-time-slot": 520.68,
+                "start-time": "14:30",
+                "end-time": "16:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Software Quality Engineering SP23-BSE-B N-23",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 520.68,
+                "end-time-slot": 606.96,
+                "start-time": "16:00",
+                "end-time": "17:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Software Quality Engineering SP23-BSE-A N-12",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 175.32,
+                "start-time": "8:30",
+                "end-time": "10:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Software Quality Engineering SP23-BSE-B D-115",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 261.6,
+                "end-time-slot": 348.0,
+                "start-time": "11:30",
+                "end-time": "13:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Software Quality Engineering SP23-BSE-C N-10",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Thursday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 261.6,
+                "start-time": "8:30",
+                "end-time": "11:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Applications of Information & Communication Technologies",
+                "Class": "FA25-BCS-A",
+                "Venue": "CS Lab-C (C-8)"
+            }
+        ],
+        "Friday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 434.28,
+                "end-time-slot": 520.68,
+                "start-time": "14:30",
+                "end-time": "16:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Software Quality Engineering SP23-BSE-C N-5",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 520.68,
+                "end-time-slot": 606.96,
+                "start-time": "16:00",
+                "end-time": "17:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Software Quality Engineering SP23-BSE-A N-7",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ]
+    },
+    {
+        "Page": 61,
+        "Instructor": "CS-Dr. Abid Sohail",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 491.88,
+                "end-time-slot": 578.28,
+                "start-time": "15:30",
+                "end-time": "17:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Business Process Engineering",
+                "Class": "FA22-BSE-A",
+                "Venue": "C-6"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 606.96,
+                "end-time-slot": 779.76,
+                "start-time": "17:30",
+                "end-time": "20:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Research Methodology FA25-RCS/PCS-A D-107",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Tuesday": [],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 175.32,
+                "start-time": "8:30",
+                "end-time": "10:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Business Process Engineering",
+                "Class": "FA22-BSE-A",
+                "Venue": "D-109"
+            }
+        ],
+        "Thursday": [],
+        "Friday": []
+    },
+    {
+        "Page": 62,
+        "Instructor": "CS-Dr. Adnan Ahmad",
+        "Monday": [],
+        "Tuesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 175.32,
+                "start-time": "8:30",
+                "end-time": "10:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Information Security SP23-BSE-A N-2",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 261.6,
+                "end-time-slot": 348.0,
+                "start-time": "11:30",
+                "end-time": "13:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Information Security SP23-BSE-B N-14",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 175.32,
+                "start-time": "8:30",
+                "end-time": "10:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Information Security SP23-BSE-A N-6",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 261.6,
+                "end-time-slot": 348.0,
+                "start-time": "11:30",
+                "end-time": "13:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Information Security SP23-BSE-B N-21",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Thursday": [],
+        "Friday": []
+    },
+    {
+        "Page": 63,
+        "Instructor": "CS-Dr. Aksam Iftikhar",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 348.0,
+                "start-time": "11:30",
+                "end-time": "13:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Object Oriented Programming SP25-BAI-A N-12",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Tuesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 606.96,
+                "end-time-slot": 779.76,
+                "start-time": "17:30",
+                "end-time": "20:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Deep Learning FA25-RCS/PCS-A D-106",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 348.0,
+                "start-time": "11:30",
+                "end-time": "13:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Object Oriented Programming SP25-BAI-A N-5",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Thursday": [],
+        "Friday": []
+    },
+    {
+        "Page": 64,
+        "Instructor": "CS-Dr. Ashfaq Ahmad",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 146.52,
+                "start-time": "8:30",
+                "end-time": "9:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Computer Organization & Assembly Language",
+                "Class": "FA23-BSE-C",
+                "Venue": "N-25-A"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 261.6,
+                "end-time-slot": 319.2,
+                "start-time": "11:30",
+                "end-time": "12:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Computer Organization & Assembly Language",
+                "Class": "FA23-BSE-A",
+                "Venue": "N-21"
+            },
+            {
+                "Lecture": 3,
+                "start-time-slot": 376.8,
+                "end-time-slot": 434.28,
+                "start-time": "13:30",
+                "end-time": "14:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Computer Organization & Assembly Language",
+                "Class": "FA23-BSE-B",
+                "Venue": "N-22"
+            }
+        ],
+        "Tuesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 376.8,
+                "end-time-slot": 434.28,
+                "start-time": "13:30",
+                "end-time": "14:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Computer Organization & Assembly Language",
+                "Class": "FA23-BSE-A",
+                "Venue": "D-5"
+            }
+        ],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 146.52,
+                "end-time-slot": 204.12,
+                "start-time": "9:30",
+                "end-time": "10:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Computer Organization & Assembly Language",
+                "Class": "FA23-BSE-B",
+                "Venue": "N-22"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 204.12,
+                "end-time-slot": 261.6,
+                "start-time": "10:30",
+                "end-time": "11:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Computer Organization & Assembly Language",
+                "Class": "FA23-BSE-C",
+                "Venue": "D-14"
+            }
+        ],
+        "Thursday": [],
+        "Friday": []
+    },
+    {
+        "Page": 65,
+        "Instructor": "CS-Dr. Atif Saeed",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 348.0,
+                "start-time": "11:30",
+                "end-time": "13:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Design & Analysis of Algorithm SP24-BSE-A N-23",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 348.0,
+                "end-time-slot": 434.28,
+                "start-time": "13:00",
+                "end-time": "14:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Design & Analysis of Algorithm SP24-BSE-B D-13",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Tuesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 434.28,
+                "end-time-slot": 520.68,
+                "start-time": "14:30",
+                "end-time": "16:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Design & Analysis of Algorithm SP24-BSE-C N-12",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Wednesday": [],
+        "Thursday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 348.0,
+                "start-time": "11:30",
+                "end-time": "13:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Design & Analysis of Algorithm SP24-BSE-B N-6",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 434.28,
+                "end-time-slot": 520.68,
+                "start-time": "14:30",
+                "end-time": "16:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Design & Analysis of Algorithm SP24-BSE-C N-12",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Friday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 348.0,
+                "start-time": "11:30",
+                "end-time": "13:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Design & Analysis of Algorithm SP24-BSE-A N-15",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ]
+    },
+    {
+        "Page": 66,
+        "Instructor": "CS-Dr. Farooq Ahmad",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 348.0,
+                "start-time": "11:30",
+                "end-time": "13:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "IDS-1 SP22-BSE-A/SP22-BSE-B SP22-BSE-C C-5",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Tuesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 606.96,
+                "end-time-slot": 779.76,
+                "start-time": "17:30",
+                "end-time": "20:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Formal Methods and Semantics FA25-RCS/PCS-A D-109",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Wednesday": [],
+        "Thursday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 520.68,
+                "end-time-slot": 606.96,
+                "start-time": "16:00",
+                "end-time": "17:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "IDS-1 SP22-BSE-A/SP22-BSE-B/ SP22-BSE-C C-5",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Friday": []
+    },
+    {
+        "Page": 67,
+        "Instructor": "CS-Dr. Farukh Zeeshan",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 434.28,
+                "end-time-slot": 520.68,
+                "start-time": "14:30",
+                "end-time": "16:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Software Project Management SP23-BSE-C N-19-A",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 606.96,
+                "end-time-slot": 779.76,
+                "start-time": "17:30",
+                "end-time": "20:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Advanced Software Engineering FA25-RCS/PCS-A D-15",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Tuesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 348.0,
+                "start-time": "11:30",
+                "end-time": "13:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Software Project Management SP23-BSE-C N-19-A",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 434.28,
+                "end-time-slot": 520.68,
+                "start-time": "14:30",
+                "end-time": "16:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Software Project Management SP23-BSE-A/SP23-BSE-B N-17",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Thursday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 175.32,
+                "start-time": "8:30",
+                "end-time": "10:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Software Project Management SP23-BSE-A/SP23-BSE-B N-2",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Friday": []
+    },
+    {
+        "Page": 68,
+        "Instructor": "CS-Dr. Ghulam Rasool",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 175.32,
+                "end-time-slot": 261.6,
+                "start-time": "10:00",
+                "end-time": "11:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Software Requirement Engineering",
+                "Class": "FA23-BSE-A",
+                "Venue": "O-1"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 261.6,
+                "end-time-slot": 348.0,
+                "start-time": "11:30",
+                "end-time": "13:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Software Requirement Engineering",
+                "Class": "FA23-BSE-B",
+                "Venue": "O-1"
+            }
+        ],
+        "Tuesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 175.32,
+                "end-time-slot": 261.6,
+                "start-time": "10:00",
+                "end-time": "11:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Software Requirement Engineering",
+                "Class": "FA23-BSE-B",
+                "Venue": "O-1"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 261.6,
+                "end-time-slot": 348.0,
+                "start-time": "11:30",
+                "end-time": "13:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Software Requirement Engineering",
+                "Class": "FA23-BSE-A",
+                "Venue": "O-1"
+            }
+        ],
+        "Wednesday": [],
+        "Thursday": [],
+        "Friday": []
+    },
+    {
+        "Page": 69,
+        "Instructor": "CS-Dr. Hamid Turab",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 348.0,
+                "start-time": "11:30",
+                "end-time": "13:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Database Systems SP24-BCS-A N-25-B",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 348.0,
+                "end-time-slot": 434.28,
+                "start-time": "13:00",
+                "end-time": "14:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Database Systems SP24-BCS-B C-5",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Tuesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 175.32,
+                "end-time-slot": 261.6,
+                "start-time": "10:00",
+                "end-time": "11:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Database Systems SP24-BCS-A C-5",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Wednesday": [],
+        "Thursday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 348.0,
+                "start-time": "11:30",
+                "end-time": "13:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Database Systems SP24-BCS-B N-14",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Friday": []
+    },
+    {
+        "Page": 70,
+        "Instructor": "CS-Dr. Hasan Jamal",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 175.32,
+                "end-time-slot": 261.6,
+                "start-time": "10:00",
+                "end-time": "11:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Design & Analysis of Algorithm SP24-BCS-A N-4",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 261.6,
+                "end-time-slot": 319.2,
+                "start-time": "11:30",
+                "end-time": "12:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "DevOps-1",
+                "Class": "FA22-BCS-A",
+                "Venue": "FA22-BCS-B FA22-BCS-C N-4"
+            },
+            {
+                "Lecture": 3,
+                "start-time-slot": 434.28,
+                "end-time-slot": 491.88,
+                "start-time": "14:30",
+                "end-time": "15:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "DevOps-3",
+                "Class": "FA22-BCS-A",
+                "Venue": "FA22-BCS-B FA22-BCS-C FA22-BSE-A FA22-BSE-B FA22-BSE-C FA22-BSE-D N-3"
+            }
+        ],
+        "Tuesday": [],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 319.2,
+                "start-time": "11:30",
+                "end-time": "12:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "DevOps-1",
+                "Class": "FA22-BCS-A",
+                "Venue": "FA22-BCS-B FA22-BCS-C N-4"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 463.08,
+                "end-time-slot": 520.68,
+                "start-time": "15:00",
+                "end-time": "16:00",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "DevOps-3 FA22-BCS-A/ FA22-BCS-B/ FA22-BCS-C/ FA22-BSE-A/ FA22-BSE-B/ FA22-BSE-C/",
+                "Class": "FA22-BSE-D",
+                "Venue": "N-8"
+            },
+            {
+                "Lecture": 3,
+                "start-time-slot": 520.68,
+                "end-time-slot": 606.96,
+                "start-time": "16:00",
+                "end-time": "17:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Design & Analysis of Algorithm SP24-BCS-A C-5",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Thursday": [],
+        "Friday": []
+    },
+    {
+        "Page": 71,
+        "Instructor": "CS-Dr. Hasanain Ch",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 434.28,
+                "end-time-slot": 491.88,
+                "start-time": "14:30",
+                "end-time": "15:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "DevOps-2",
+                "Class": "FA22-BSE-A",
+                "Venue": "FA22-BSE-B FA22-BSE-C FA22-BSE-D N-9"
+            }
+        ],
+        "Tuesday": [],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 434.28,
+                "end-time-slot": 491.88,
+                "start-time": "14:30",
+                "end-time": "15:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "DevOps-2",
+                "Class": "FA22-BSE-A",
+                "Venue": "FA22-BSE-B FA22-BSE-C FA22-BSE-D N-11"
+            }
+        ],
+        "Thursday": [],
+        "Friday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 606.96,
+                "end-time-slot": 779.76,
+                "start-time": "17:30",
+                "end-time": "20:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Advanced Computer Archirtechture FA25-RCS/PCS-A D-107",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ]
+    },
+    {
+        "Page": 72,
+        "Instructor": "CS-Dr. Jawad Shafi",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 348.0,
+                "start-time": "11:30",
+                "end-time": "13:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "ML-1 SP23-BCS-A/SP23-BCS-B SP23-BCS-C/FA22-BCS-A FA22-BCS-B/FA22-BCS-C N-2",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 348.0,
+                "end-time-slot": 434.28,
+                "start-time": "13:00",
+                "end-time": "14:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "ML-2 SP23-BCS-A/SP23-BCS-B/ SP23-BCS-C N-1",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Tuesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 348.0,
+                "end-time-slot": 434.28,
+                "start-time": "13:00",
+                "end-time": "14:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "ML-5 FA22-BSE-A/FA22-BSE-B FA22-BSE-C/FA22-BSE-D SP22-BSE-A/SP22-BSE-B SP22-BSE-C N-3",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 348.0,
+                "start-time": "11:30",
+                "end-time": "13:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "ML-1 SP23-BCS-A/SP23-BCS-B SP23-BCS-C/FA22-BCS-A FA22-BCS-B/FA22-BCS-C N-2",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 348.0,
+                "end-time-slot": 434.28,
+                "start-time": "13:00",
+                "end-time": "14:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "ML-2 SP23-BCS-A/SP23-BCS-B SP23-BCS-C N-1",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Thursday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 348.0,
+                "end-time-slot": 434.28,
+                "start-time": "13:00",
+                "end-time": "14:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "ML-5 FA22-BSE-A/FA22-BSE-B FA22-BSE-C/FA22-BSE-D SP22-BSE-A/SP22-BSE-B SP22-BSE-C N-2",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Friday": []
+    },
+    {
+        "Page": 73,
+        "Instructor": "CS-Dr. Junaid Akram",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 348.0,
+                "start-time": "11:30",
+                "end-time": "13:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Software Re-Engineering SP23-BSE-B D-14",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 348.0,
+                "end-time-slot": 434.28,
+                "start-time": "13:00",
+                "end-time": "14:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Software Re-Engineering SP23-BSE-C N-2",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Tuesday": [],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 520.68,
+                "end-time-slot": 606.96,
+                "start-time": "16:00",
+                "end-time": "17:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Software Re-Engineering SP23-BSE-A N-10",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Thursday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 175.32,
+                "start-time": "8:30",
+                "end-time": "10:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Software Re-Engineering SP23-BSE-C N-11",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 261.6,
+                "end-time-slot": 348.0,
+                "start-time": "11:30",
+                "end-time": "13:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Software Re-Engineering SP23-BSE-A N-7",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Friday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 434.28,
+                "end-time-slot": 520.68,
+                "start-time": "14:30",
+                "end-time": "16:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Software Re-Engineering SP23-BSE-B N-23",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ]
+    },
+    {
+        "Page": 74,
+        "Instructor": "CS-Dr. Rao Adeel Nawab",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 348.0,
+                "end-time-slot": 434.28,
+                "start-time": "13:00",
+                "end-time": "14:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Natural Language Processing SP23-BAI-A D-14",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Tuesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 348.0,
+                "end-time-slot": 434.28,
+                "start-time": "13:00",
+                "end-time": "14:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "IDS-2 SP22-BSE-A/SP22-BSE-B SP22-BSE-C N-4",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 520.68,
+                "end-time-slot": 606.96,
+                "start-time": "16:00",
+                "end-time": "17:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Natural Language Processing SP23-BAI-A N-10",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Wednesday": [],
+        "Thursday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 348.0,
+                "end-time-slot": 434.28,
+                "start-time": "13:00",
+                "end-time": "14:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "IDS-2 SP22-BSE-A/SP22-BSE-B SP22-BSE-C N-4",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Friday": []
+    },
+    {
+        "Page": 75,
+        "Instructor": "CS-Dr. Sana Maqbool",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 348.0,
+                "end-time-slot": 434.28,
+                "start-time": "13:00",
+                "end-time": "14:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Software Engineering",
+                "Class": "FA24-BSE-B",
+                "Venue": "D-106"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 434.28,
+                "end-time-slot": 520.68,
+                "start-time": "14:30",
+                "end-time": "16:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Software Engineering",
+                "Class": "FA24-BSE-A",
+                "Venue": "D-6"
+            }
+        ],
+        "Tuesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 175.32,
+                "end-time-slot": 261.6,
+                "start-time": "10:00",
+                "end-time": "11:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Software Engineering",
+                "Class": "FA24-BSE-B",
+                "Venue": "D-5"
+            }
+        ],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 348.0,
+                "start-time": "11:30",
+                "end-time": "13:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Software Engineering",
+                "Class": "FA24-BSE-C",
+                "Venue": "N-25-B"
+            }
+        ],
+        "Thursday": [],
+        "Friday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 175.32,
+                "start-time": "8:30",
+                "end-time": "10:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Software Engineering",
+                "Class": "FA24-BSE-A",
+                "Venue": "D-5"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 261.6,
+                "end-time-slot": 348.0,
+                "start-time": "11:30",
+                "end-time": "13:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Software Engineering",
+                "Class": "FA24-BSE-C",
+                "Venue": "N-24"
+            }
+        ]
+    },
+    {
+        "Page": 76,
+        "Instructor": "CS-Dr. Shahbaz Akhtar",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 348.0,
+                "start-time": "11:30",
+                "end-time": "13:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Data Structures",
+                "Class": "FA24-BCS-B",
+                "Venue": "D-8 (Mon)"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 434.28,
+                "end-time-slot": 520.68,
+                "start-time": "14:30",
+                "end-time": "16:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Data Structures",
+                "Class": "FA24-BCS-A",
+                "Venue": "D-3"
+            }
+        ],
+        "Tuesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 175.32,
+                "end-time-slot": 261.6,
+                "start-time": "10:00",
+                "end-time": "11:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Data Structures",
+                "Class": "FA24-BCS-B",
+                "Venue": "D-15"
+            }
+        ],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 434.28,
+                "start-time": "11:30",
+                "end-time": "14:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Data Structures",
+                "Class": "FA24-BCS-A",
+                "Venue": "CS Lab-G (C-1)"
+            }
+        ],
+        "Thursday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 175.32,
+                "start-time": "8:30",
+                "end-time": "10:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Data Structures",
+                "Class": "FA24-BCS-A",
+                "Venue": "D-112"
+            }
+        ],
+        "Friday": []
+    },
+    {
+        "Page": 77,
+        "Instructor": "CS-Dr. Sharjeel",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 348.0,
+                "end-time-slot": 434.28,
+                "start-time": "13:00",
+                "end-time": "14:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "ML-3 SP23-BCS-A/SP23-BCS-B SP23-BCS-C N-3",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Tuesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 348.0,
+                "end-time-slot": 434.28,
+                "start-time": "13:00",
+                "end-time": "14:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "ML-4 FA22-BCS-A/FA22-BCS-B FA22-BCS-C/FA22-BSE-A FA22-BSE-B/FA22-BSE-C",
+                "Class": "FA22-BSE-D",
+                "Venue": "N-10"
+            }
+        ],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 348.0,
+                "end-time-slot": 434.28,
+                "start-time": "13:00",
+                "end-time": "14:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "ML-3 SP23-BCS-A/SP23-BCS-B/ SP23-BCS-C N-3",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Thursday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 348.0,
+                "end-time-slot": 434.28,
+                "start-time": "13:00",
+                "end-time": "14:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "ML-4 FA22-BCS-A/FA22-BCS-B FA22-BCS-C/FA22-BSE-A FA22-BSE-B/FA22-BSE-C",
+                "Class": "FA22-BSE-D",
+                "Venue": "N-12"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 606.96,
+                "end-time-slot": 779.76,
+                "start-time": "17:30",
+                "end-time": "20:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Machine Learning FA25-RCS/PCS-A D-110",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Friday": []
+    },
+    {
+        "Page": 78,
+        "Instructor": "CS-Dr. Tahir Maqsood",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 348.0,
+                "start-time": "11:30",
+                "end-time": "13:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Data Structures",
+                "Class": "FA24-BSE-A",
+                "Venue": "D-110 (Mon)"
+            }
+        ],
+        "Tuesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 606.96,
+                "end-time-slot": 779.76,
+                "start-time": "17:30",
+                "end-time": "20:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Advanced Computer Networks FA25-RCS/PCS-A D-107",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 434.28,
+                "end-time-slot": 606.96,
+                "start-time": "14:30",
+                "end-time": "17:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Data Structures",
+                "Class": "FA24-BSE-A",
+                "Venue": "SE Lab-J (C-9)"
+            }
+        ],
+        "Thursday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 175.32,
+                "start-time": "8:30",
+                "end-time": "10:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Data Structures",
+                "Class": "FA24-BSE-A",
+                "Venue": "D-13"
+            }
+        ],
+        "Friday": []
+    },
+    {
+        "Page": 79,
+        "Instructor": "CS-Dr. Tariq Umer",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 348.0,
+                "start-time": "11:30",
+                "end-time": "13:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Information Security SP23-BSE-C D-11",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Tuesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 175.32,
+                "start-time": "8:30",
+                "end-time": "10:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Information Security SP23-BSE-C N-1",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Wednesday": [],
+        "Thursday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 606.96,
+                "end-time-slot": 779.76,
+                "start-time": "17:30",
+                "end-time": "20:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Advanced Operating Systems FA25-RCS/PCS-A D-109",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Friday": []
+    },
+    {
+        "Page": 80,
+        "Instructor": "CS-Dr. Tayyab Ch.",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 175.32,
+                "end-time-slot": 261.6,
+                "start-time": "10:00",
+                "end-time": "11:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Information Security",
+                "Class": "FA22-BCS-A",
+                "Venue": "N-5"
+            }
+        ],
+        "Tuesday": [],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 175.32,
+                "end-time-slot": 261.6,
+                "start-time": "10:00",
+                "end-time": "11:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Information Security",
+                "Class": "FA22-BCS-C",
+                "Venue": "N-9"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 520.68,
+                "end-time-slot": 606.96,
+                "start-time": "16:00",
+                "end-time": "17:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Information Security",
+                "Class": "FA22-BCS-B",
+                "Venue": "O-3"
+            }
+        ],
+        "Thursday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 175.32,
+                "end-time-slot": 261.6,
+                "start-time": "10:00",
+                "end-time": "11:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Information Security",
+                "Class": "FA22-BCS-B",
+                "Venue": "N-6"
+            }
+        ],
+        "Friday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 175.32,
+                "end-time-slot": 261.6,
+                "start-time": "10:00",
+                "end-time": "11:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Information Security",
+                "Class": "FA22-BCS-A",
+                "Venue": "C-6"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 261.6,
+                "end-time-slot": 348.0,
+                "start-time": "11:30",
+                "end-time": "13:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Information Security",
+                "Class": "FA22-BCS-C",
+                "Venue": "N-9"
+            }
+        ]
+    },
+    {
+        "Page": 81,
+        "Instructor": "CS-Dr. Usama Ejaz Bajwa",
+        "Monday": [],
+        "Tuesday": [],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 606.96,
+                "end-time-slot": 779.76,
+                "start-time": "17:30",
+                "end-time": "20:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Digital Image Processing CS/SE Repeaters 1 N-8",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Thursday": [],
+        "Friday": []
+    },
+    {
+        "Page": 82,
+        "Instructor": "CS-Dr. Wajahat Qazi",
+        "Monday": [],
+        "Tuesday": [],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 319.2,
+                "start-time": "11:30",
+                "end-time": "12:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Artificial Intelligence SP24-BAI-A D-6",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 606.96,
+                "end-time-slot": 779.76,
+                "start-time": "17:30",
+                "end-time": "20:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Artificial Intelligence in Healthcare FA25-RCS/PCS-A D-107",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Thursday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 348.0,
+                "start-time": "11:30",
+                "end-time": "13:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Agent Based Modeling SP23-BAI-A N-12",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Friday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 146.52,
+                "start-time": "8:30",
+                "end-time": "9:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Artificial Intelligence SP24-BAI-A N-13",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 261.6,
+                "end-time-slot": 348.0,
+                "start-time": "11:30",
+                "end-time": "13:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Agent Based Modeling SP23-BAI-A N-10",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ]
+    },
+    {
+        "Page": 83,
+        "Instructor": "CS-Dr. Zulfiqar Habib",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 348.0,
+                "start-time": "11:30",
+                "end-time": "13:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Comp Vis-2 FA22-BCS-A/FA22-BCS-B FA22-BCS-C/SP23-BCS-A SP23-BCS-B/SP23-BCS-C N-1",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 434.28,
+                "end-time-slot": 520.68,
+                "start-time": "14:30",
+                "end-time": "16:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Comp Vis-1 SP23-BCS-A/SP23-BCS-B SP23-BCS-C/FA22-BCS-A FA22-BCS-B/FA22-BCS-C N-1",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Tuesday": [],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 348.0,
+                "start-time": "11:30",
+                "end-time": "13:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Comp Vis-2 FA22-BCS-A/FA22-BCS-B FA22-BCS-C/SP23-BCS-A SP23-BCS-B/SP23-BCS-C N-1",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 434.28,
+                "end-time-slot": 520.68,
+                "start-time": "14:30",
+                "end-time": "16:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Comp Vis-1 SP23-BCS-A/SP23-BCS-B/ SP23-BCS-C/FA22-BCS-A/ FA22-BCS-B/FA22-BCS-C N-1",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Thursday": [],
+        "Friday": []
+    },
+    {
+        "Page": 84,
+        "Instructor": "CS-Faisal Mumtaz",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 434.28,
+                "end-time-slot": 606.96,
+                "start-time": "14:30",
+                "end-time": "17:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Database Systems SP24-BCS-A CS Lab-C (C-8)",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Tuesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 348.0,
+                "start-time": "11:30",
+                "end-time": "13:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Database Systems SP24-BSE-C N-4",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 434.28,
+                "start-time": "11:30",
+                "end-time": "14:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Database Systems SP24-BCS-B CS Lab-E (C-11)",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 434.28,
+                "end-time-slot": 606.96,
+                "start-time": "14:30",
+                "end-time": "17:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Database Systems SP24-BSE-C SE Lab-F (C-13)",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Thursday": [],
+        "Friday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 348.0,
+                "start-time": "11:30",
+                "end-time": "13:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Database Systems SP24-BSE-C N-6",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ]
+    },
+    {
+        "Page": 85,
+        "Instructor": "CS-Fareeha Iftikhar",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 348.0,
+                "start-time": "11:30",
+                "end-time": "13:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Programming Fundamentals",
+                "Class": "FA25-BCS-A",
+                "Venue": "N-10"
+            }
+        ],
+        "Tuesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 348.0,
+                "start-time": "11:30",
+                "end-time": "13:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Programming Fundamentals",
+                "Class": "FA25-BCS-A",
+                "Venue": "N-8"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 348.0,
+                "end-time-slot": 434.28,
+                "start-time": "13:00",
+                "end-time": "14:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Programming Fundamentals",
+                "Class": "FA25-BCS-B",
+                "Venue": "N-12"
+            }
+        ],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 434.28,
+                "start-time": "11:30",
+                "end-time": "14:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Programming Fundamentals",
+                "Class": "FA25-BCS-B",
+                "Venue": "SE Lab-B (C-19)"
+            }
+        ],
+        "Thursday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 175.32,
+                "end-time-slot": 261.6,
+                "start-time": "10:00",
+                "end-time": "11:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Programming Fundamentals",
+                "Class": "FA25-BCS-B",
+                "Venue": "N-8"
+            }
+        ],
+        "Friday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 261.6,
+                "start-time": "8:30",
+                "end-time": "11:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Programming Fundamentals",
+                "Class": "FA25-BCS-A",
+                "Venue": "CS Lab-C (C-8)"
+            }
+        ]
+    },
+    {
+        "Page": 86,
+        "Instructor": "CS-Gul Bano",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 261.6,
+                "start-time": "8:30",
+                "end-time": "11:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Compiler Construction",
+                "Class": "FA22-BCS-B",
+                "Venue": "CS Lab-C (C-8)"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 520.68,
+                "end-time-slot": 578.28,
+                "start-time": "16:00",
+                "end-time": "17:00",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Compiler Construction",
+                "Class": "FA22-BCS-C",
+                "Venue": "N-14"
+            }
+        ],
+        "Tuesday": [],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 261.6,
+                "start-time": "8:30",
+                "end-time": "11:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Compiler Construction",
+                "Class": "FA22-BCS-A",
+                "Venue": "SE Lab-J (C-9)"
+            }
+        ],
+        "Thursday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 146.52,
+                "start-time": "8:30",
+                "end-time": "9:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Compiler Construction",
+                "Class": "FA22-BCS-B",
+                "Venue": "C-5"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 146.52,
+                "end-time-slot": 204.12,
+                "start-time": "9:30",
+                "end-time": "10:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Compiler Construction",
+                "Class": "FA22-BCS-C",
+                "Venue": "C-5"
+            },
+            {
+                "Lecture": 3,
+                "start-time-slot": 204.12,
+                "end-time-slot": 261.6,
+                "start-time": "10:30",
+                "end-time": "11:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Compiler Construction",
+                "Class": "FA22-BCS-A",
+                "Venue": "C-5"
+            }
+        ],
+        "Friday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 117.72,
+                "end-time-slot": 175.32,
+                "start-time": "9:00",
+                "end-time": "10:00",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Compiler Construction",
+                "Class": "FA22-BCS-A",
+                "Venue": "N-11"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 175.32,
+                "end-time-slot": 232.8,
+                "start-time": "10:00",
+                "end-time": "11:00",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Compiler Construction",
+                "Class": "FA22-BCS-B",
+                "Venue": "A-10"
+            }
+        ]
+    },
+    {
+        "Page": 87,
+        "Instructor": "CS-Humaira Afzal",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 146.52,
+                "end-time-slot": 204.12,
+                "start-time": "9:30",
+                "end-time": "10:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Human Computer Interaction",
+                "Class": "FA22-BSE-A",
+                "Venue": "C-5"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 261.6,
+                "end-time-slot": 434.28,
+                "start-time": "11:30",
+                "end-time": "14:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Human Computer Interaction",
+                "Class": "FA22-BSE-A",
+                "Venue": "SE Lab-J (C-9)"
+            }
+        ],
+        "Tuesday": [],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 261.6,
+                "start-time": "8:30",
+                "end-time": "11:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Human Computer Interaction",
+                "Class": "FA22-BSE-B",
+                "Venue": "SE Lab-A (C-18)"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 261.6,
+                "end-time-slot": 319.2,
+                "start-time": "11:30",
+                "end-time": "12:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Human Computer Interaction",
+                "Class": "FA22-BSE-B",
+                "Venue": "C-5"
+            }
+        ],
+        "Thursday": [],
+        "Friday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 117.72,
+                "end-time-slot": 175.32,
+                "start-time": "9:00",
+                "end-time": "10:00",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Human Computer Interaction",
+                "Class": "FA22-BSE-A",
+                "Venue": "C-6"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 261.6,
+                "end-time-slot": 319.2,
+                "start-time": "11:30",
+                "end-time": "12:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Human Computer Interaction",
+                "Class": "FA22-BSE-B",
+                "Venue": "CS Lab-C (C-8)"
+            }
+        ]
+    },
+    {
+        "Page": 88,
+        "Instructor": "CS-Humera Faisal",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 348.0,
+                "end-time-slot": 434.28,
+                "start-time": "13:00",
+                "end-time": "14:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Data Structures",
+                "Class": "FA24-BSE-C",
+                "Venue": "D-10 (Mon)"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 434.28,
+                "end-time-slot": 520.68,
+                "start-time": "14:30",
+                "end-time": "16:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Data Structures",
+                "Class": "FA24-BSE-B",
+                "Venue": "D-8 (Mon)"
+            }
+        ],
+        "Tuesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 261.6,
+                "start-time": "8:30",
+                "end-time": "11:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Data Structures",
+                "Class": "FA24-BSE-C",
+                "Venue": "SE Lab-B (C-19)"
+            }
+        ],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 261.6,
+                "start-time": "8:30",
+                "end-time": "11:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Data Structures",
+                "Class": "FA24-BSE-B",
+                "Venue": "CS Lab-P"
+            }
+        ],
+        "Thursday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 175.32,
+                "start-time": "8:30",
+                "end-time": "10:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Data Structures",
+                "Class": "FA24-BSE-C",
+                "Venue": "A-3"
+            }
+        ],
+        "Friday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 175.32,
+                "end-time-slot": 261.6,
+                "start-time": "10:00",
+                "end-time": "11:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Data Structures",
+                "Class": "FA24-BSE-B",
+                "Venue": "D-6"
+            }
+        ]
+    },
+    {
+        "Page": 89,
+        "Instructor": "CS-Imran Latif",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 348.0,
+                "end-time-slot": 434.28,
+                "start-time": "13:00",
+                "end-time": "14:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Object Oriented Programming SP25-BCS-C D-12 (Mon)",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 434.28,
+                "end-time-slot": 606.96,
+                "start-time": "14:30",
+                "end-time": "17:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Object Oriented Programming SP25-BCS-C CS Lab-P",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Tuesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 175.32,
+                "start-time": "8:30",
+                "end-time": "10:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Object Oriented Programming SP25-BCS-C N-10",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Wednesday": [],
+        "Thursday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 348.0,
+                "start-time": "11:30",
+                "end-time": "13:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Object Oriented Programming SP25-BSE-C N-10",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 434.28,
+                "end-time-slot": 606.96,
+                "start-time": "14:30",
+                "end-time": "17:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Object Oriented Programming SP25-BSE-C SE Lab-B (C-19)",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Friday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 348.0,
+                "start-time": "11:30",
+                "end-time": "13:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Object Oriented Programming SP25-BSE-C N-14",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ]
+    },
+    {
+        "Page": 90,
+        "Instructor": "CS-Imran Raza",
+        "Monday": [],
+        "Tuesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 319.2,
+                "start-time": "11:30",
+                "end-time": "12:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Computer Networks SP24-BCS-B C-5",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 376.8,
+                "end-time-slot": 434.28,
+                "start-time": "13:30",
+                "end-time": "14:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Computer Networks SP24-BCS-A C-5",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 434.28,
+                "start-time": "11:30",
+                "end-time": "14:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Computer Networks SP24-BCS-A CS Lab-C (C-8)",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 434.28,
+                "end-time-slot": 606.96,
+                "start-time": "14:30",
+                "end-time": "17:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Computer Networks SP24-BCS-B CS Lab-C (C-8)",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Thursday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 319.2,
+                "start-time": "11:30",
+                "end-time": "12:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Computer Networks SP24-BCS-A C-6",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 376.8,
+                "end-time-slot": 434.28,
+                "start-time": "13:30",
+                "end-time": "14:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Computer Networks SP24-BCS-B C-6",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Friday": []
+    },
+    {
+        "Page": 91,
+        "Instructor": "CS-Iqra Obaid",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 204.12,
+                "end-time-slot": 261.6,
+                "start-time": "10:30",
+                "end-time": "11:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Human Computer Interaction",
+                "Class": "FA22-BSE-C",
+                "Venue": "C-5"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 261.6,
+                "end-time-slot": 434.28,
+                "start-time": "11:30",
+                "end-time": "14:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "r Lab-Human Computer Interaction",
+                "Class": "FA22-BSE-C",
+                "Venue": "SE Lab-H (C-7)"
+            },
+            {
+                "Lecture": 3,
+                "start-time-slot": 491.88,
+                "end-time-slot": 549.48,
+                "start-time": "15:30",
+                "end-time": "16:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Human Computer Interaction",
+                "Class": "FA22-BSE-D",
+                "Venue": "N-3"
+            }
+        ],
+        "Tuesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 146.52,
+                "end-time-slot": 204.12,
+                "start-time": "9:30",
+                "end-time": "10:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Human Computer Interaction",
+                "Class": "FA22-BSE-C",
+                "Venue": "C-6"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 204.12,
+                "end-time-slot": 261.6,
+                "start-time": "10:30",
+                "end-time": "11:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "r Human Computer Interaction",
+                "Class": "FA22-BSE-D",
+                "Venue": "D-112"
+            },
+            {
+                "Lecture": 3,
+                "start-time-slot": 348.0,
+                "end-time-slot": 434.28,
+                "start-time": "13:00",
+                "end-time": "14:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Discrete Structures SP25-BCS-B N-17",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 175.32,
+                "start-time": "8:30",
+                "end-time": "10:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Discrete Structures SP25-BCS-B N-17",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 261.6,
+                "end-time-slot": 434.28,
+                "start-time": "11:30",
+                "end-time": "14:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Human Computer Interaction",
+                "Class": "FA22-BSE-D",
+                "Venue": "SE Lab-F (C-13)"
+            }
+        ],
+        "Thursday": [],
+        "Friday": []
+    },
+    {
+        "Page": 92,
+        "Instructor": "CS-Junaid Anjum",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 261.6,
+                "start-time": "8:30",
+                "end-time": "11:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-HCI and Computer Graphics",
+                "Class": "FA23-BCS-D",
+                "Venue": "CS Lab-E (C-11)"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 319.2,
+                "end-time-slot": 376.8,
+                "start-time": "12:30",
+                "end-time": "13:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Professional Practices SP25-BSE-A N-22",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Tuesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 319.2,
+                "end-time-slot": 376.8,
+                "start-time": "12:30",
+                "end-time": "13:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "HCI and Computer Graphics",
+                "Class": "FA23-BCS-C",
+                "Venue": "N-24"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 376.8,
+                "end-time-slot": 434.28,
+                "start-time": "13:30",
+                "end-time": "14:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "HCI and Computer Graphics",
+                "Class": "FA23-BCS-D",
+                "Venue": "D-11"
+            },
+            {
+                "Lecture": 3,
+                "start-time-slot": 463.08,
+                "end-time-slot": 520.68,
+                "start-time": "15:00",
+                "end-time": "16:00",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Professional Practices SP25-BSE-A N-24",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 261.6,
+                "start-time": "8:30",
+                "end-time": "11:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-HCI and Computer Graphics",
+                "Class": "FA23-BCS-C",
+                "Venue": "SE Lab-F (C-13)"
+            }
+        ],
+        "Thursday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 146.52,
+                "end-time-slot": 204.12,
+                "start-time": "9:30",
+                "end-time": "10:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "HCI and Computer Graphics",
+                "Class": "FA23-BCS-D",
+                "Venue": "N-21"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 376.8,
+                "end-time-slot": 434.28,
+                "start-time": "13:30",
+                "end-time": "14:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "HCI and Computer Graphics",
+                "Class": "FA23-BCS-C",
+                "Venue": "D-112"
+            }
+        ],
+        "Friday": []
+    },
+    {
+        "Page": 93,
+        "Instructor": "CS-Khaula Qadeer",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 204.12,
+                "end-time-slot": 261.6,
+                "start-time": "10:30",
+                "end-time": "11:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Artificial Intelligence SP24-BCS-B A-6",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 434.28,
+                "end-time-slot": 606.96,
+                "start-time": "14:30",
+                "end-time": "17:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Artificial Intelligence SP24-BCS-C CS Lab-I (C-14)",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Tuesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 434.28,
+                "end-time-slot": 606.96,
+                "start-time": "14:30",
+                "end-time": "17:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Artificial Intelligence SP24-BCS-B CS Lab-I (C-14)",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Wednesday": [],
+        "Thursday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 348.0,
+                "end-time-slot": 405.48,
+                "start-time": "13:00",
+                "end-time": "14:00",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Artificial Intelligence SP24-BCS-C A-6",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Friday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 290.4,
+                "end-time-slot": 348.0,
+                "start-time": "12:00",
+                "end-time": "13:00",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Artificial Intelligence SP24-BCS-B A-6",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 434.28,
+                "end-time-slot": 491.88,
+                "start-time": "14:30",
+                "end-time": "15:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Artificial Intelligence SP24-BCS-C C-5",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ]
+    },
+    {
+        "Page": 94,
+        "Instructor": "CS-Maham Saleem",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 146.52,
+                "end-time-slot": 204.12,
+                "start-time": "9:30",
+                "end-time": "10:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Applications of Information & Communication Technologies",
+                "Class": "FA25-BSE-B",
+                "Venue": "N-21"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 434.28,
+                "end-time-slot": 491.88,
+                "start-time": "14:30",
+                "end-time": "15:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Applications of Information & Communication Technologies",
+                "Class": "FA25-BSE-A",
+                "Venue": "N-13"
+            }
+        ],
+        "Tuesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 434.28,
+                "start-time": "11:30",
+                "end-time": "14:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Applications of Information & Communication Technologies",
+                "Class": "FA25-BSE-A",
+                "Venue": "SE Lab-J (C-9)"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 434.28,
+                "end-time-slot": 491.88,
+                "start-time": "14:30",
+                "end-time": "15:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Applications of Information & Communication Technologies",
+                "Class": "FA25-BSE-A",
+                "Venue": "N-3"
+            }
+        ],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 348.0,
+                "end-time-slot": 405.48,
+                "start-time": "13:00",
+                "end-time": "14:00",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Applications of Information & Communication Technologies",
+                "Class": "FA25-BSE-B",
+                "Venue": "N-13"
+            }
+        ],
+        "Thursday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 434.28,
+                "start-time": "11:30",
+                "end-time": "14:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Applications of Information & Communication Technologies",
+                "Class": "FA25-BSE-B",
+                "Venue": "SE Lab-J (C-9)"
+            }
+        ],
+        "Friday": []
+    },
+    {
+        "Page": 95,
+        "Instructor": "CS-Mahwish Waqas",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 348.0,
+                "start-time": "11:30",
+                "end-time": "13:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Programming Fundamentals",
+                "Class": "FA25-BSE-C",
+                "Venue": "D-119 (Mon)"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 348.0,
+                "end-time-slot": 434.28,
+                "start-time": "13:00",
+                "end-time": "14:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Programming Fundamentals",
+                "Class": "FA25-BCS-C",
+                "Venue": "N-12"
+            }
+        ],
+        "Tuesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 434.28,
+                "start-time": "11:30",
+                "end-time": "14:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Programming Fundamentals",
+                "Class": "FA25-BSE-C",
+                "Venue": "SE Lab-A (C-18)"
+            }
+        ],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 175.32,
+                "end-time-slot": 261.6,
+                "start-time": "10:00",
+                "end-time": "11:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Programming Fundamentals",
+                "Class": "FA25-BSE-C",
+                "Venue": "O-3"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 261.6,
+                "end-time-slot": 348.0,
+                "start-time": "11:30",
+                "end-time": "13:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Programming Fundamentals",
+                "Class": "FA25-BCS-C",
+                "Venue": "N-25-A"
+            }
+        ],
+        "Thursday": [],
+        "Friday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 261.6,
+                "start-time": "8:30",
+                "end-time": "11:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Programming Fundamentals",
+                "Class": "FA25-BCS-C",
+                "Venue": "CS Lab-E (C-11)"
+            }
+        ]
+    },
+    {
+        "Page": 96,
+        "Instructor": "CS-Mohsin Mehdi",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 491.88,
+                "end-time-slot": 549.48,
+                "start-time": "15:30",
+                "end-time": "16:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Professional Practices SP25-BSE-B N-25-B",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 606.96,
+                "end-time-slot": 779.76,
+                "start-time": "17:30",
+                "end-time": "20:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Object Oriented Programming CS/SE Repeaters 1 SE Lab-A (C-18)",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Tuesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 434.28,
+                "end-time-slot": 520.68,
+                "start-time": "14:30",
+                "end-time": "16:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Game Dev-1 FA22-BCS-A/FA22-BCS-B/ FA22-BCS-C/SP23-BCS-A/ SP23-BCS-B/SP23-BCS-C/ FA22-BSE-A/FA22-BSE-B/ FA22-BSE-C/FA22-BSE-D/ SP22-BSE-A/SP22-BSE-B/ SP22-BSE-C N-2",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 606.96,
+                "end-time-slot": 779.76,
+                "start-time": "17:30",
+                "end-time": "20:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Object Oriented Programming CS/SE Repeaters 1 SE Lab-A (C-18)",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Thursday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 319.2,
+                "start-time": "11:30",
+                "end-time": "12:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Professional Practices SP25-BSE-B N-25-A",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 434.28,
+                "end-time-slot": 520.68,
+                "start-time": "14:30",
+                "end-time": "16:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Game Dev-1 FA22-BCS-A/FA22-BCS-B/ FA22-BCS-C/SP23-BCS-A/ SP23-BCS-B/SP23-BCS-C/ FA22-BSE-A/FA22-BSE-B/ FA22-BSE-C/FA22-BSE-D/ SP22-BSE-A/SP22-BSE-B/ SP22-BSE-C N-21",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Friday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 434.28,
+                "end-time-slot": 606.96,
+                "start-time": "14:30",
+                "end-time": "17:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Game Dev-1 FA22-BCS-A/FA22-BCS-B/FA22-BCS-C/SP23-BCS-A/ SP23-BCS-B/SP23-BCS-C/FA22-BSE-A/FA22-BSE-B/ FA22-BSE-C/FA22-BSE-D/SP22-BSE-A/SP22-BSE-B/ SP22-BSE-C CS Lab-P",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ]
+    },
+    {
+        "Page": 97,
+        "Instructor": "CS-Muntaha Amjad",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 261.6,
+                "start-time": "8:30",
+                "end-time": "11:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Parallel and Distributed Computing SP23-BCS-B SE Lab-F (C-13)",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 520.68,
+                "end-time-slot": 578.28,
+                "start-time": "16:00",
+                "end-time": "17:00",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Parallel and Distributed Computing SP23-BCS-A N-17",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Tuesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 434.28,
+                "start-time": "11:30",
+                "end-time": "14:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Parallel and Distributed Computing SP23-BCS-A CS Lab-E (C-11)",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 549.48,
+                "end-time-slot": 606.96,
+                "start-time": "16:30",
+                "end-time": "17:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Parallel and Distributed Computing SP23-BCS-B N-17",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 146.52,
+                "start-time": "8:30",
+                "end-time": "9:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Applications of Information and Communication Technologies",
+                "Class": "FA25-ELC-A",
+                "Venue": "N-24"
+            }
+        ],
+        "Thursday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 146.52,
+                "end-time-slot": 204.12,
+                "start-time": "9:30",
+                "end-time": "10:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Parallel and Distributed Computing SP23-BCS-A N-24",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Friday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 146.52,
+                "start-time": "8:30",
+                "end-time": "9:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Parallel and Distributed Computing SP23-BCS-B N-5",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 146.52,
+                "end-time-slot": 204.12,
+                "start-time": "9:30",
+                "end-time": "10:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Applications of Information and Communication Technologies",
+                "Class": "FA25-ELC-A",
+                "Venue": "N-17"
+            }
+        ]
+    },
+    {
+        "Page": 98,
+        "Instructor": "CS-Muntaha Iqbal",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 204.12,
+                "end-time-slot": 261.6,
+                "start-time": "10:30",
+                "end-time": "11:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "HCI and Computer Graphics",
+                "Class": "FA23-BCS-A",
+                "Venue": "D-9 (Mon)"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 261.6,
+                "end-time-slot": 319.2,
+                "start-time": "11:30",
+                "end-time": "12:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "HCI and Computer Graphics",
+                "Class": "FA23-BCS-B",
+                "Venue": "D-10 (Mon)"
+            }
+        ],
+        "Tuesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 146.52,
+                "end-time-slot": 204.12,
+                "start-time": "9:30",
+                "end-time": "10:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "HCI and Computer Graphics",
+                "Class": "FA23-BCS-A",
+                "Venue": "D-112"
+            }
+        ],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 261.6,
+                "start-time": "8:30",
+                "end-time": "11:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-HCI and Computer Graphics",
+                "Class": "FA23-BCS-A",
+                "Venue": "CS Lab-I (C-14)"
+            }
+        ],
+        "Thursday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 261.6,
+                "start-time": "8:30",
+                "end-time": "11:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-HCI and Computer Graphics",
+                "Class": "FA23-BCS-B",
+                "Venue": "CS Lab-P"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 319.2,
+                "end-time-slot": 376.8,
+                "start-time": "12:30",
+                "end-time": "13:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "HCI and Computer Graphics",
+                "Class": "FA23-BCS-B",
+                "Venue": "D-13"
+            }
+        ],
+        "Friday": []
+    },
+    {
+        "Page": 99,
+        "Instructor": "CS-Nadeem Ghafoor Ch.",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 261.6,
+                "start-time": "8:30",
+                "end-time": "11:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Operating Systems",
+                "Class": "FA23-BCS-B",
+                "Venue": "CS Lab-P"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 319.2,
+                "end-time-slot": 376.8,
+                "start-time": "12:30",
+                "end-time": "13:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Operating Systems",
+                "Class": "FA23-BSE-A",
+                "Venue": "N-21"
+            }
+        ],
+        "Tuesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 146.52,
+                "start-time": "8:30",
+                "end-time": "9:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Operating Systems",
+                "Class": "FA23-BSE-A",
+                "Venue": "D-11"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 204.12,
+                "end-time-slot": 261.6,
+                "start-time": "10:30",
+                "end-time": "11:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Operating Systems",
+                "Class": "FA23-BCS-A",
+                "Venue": "D-11"
+            }
+        ],
+        "Wednesday": [],
+        "Thursday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 261.6,
+                "start-time": "8:30",
+                "end-time": "11:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Operating Systems",
+                "Class": "FA23-BCS-A",
+                "Venue": "SE Lab-F (C-13)"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 376.8,
+                "end-time-slot": 434.28,
+                "start-time": "13:30",
+                "end-time": "14:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Operating Systems",
+                "Class": "FA23-BCS-B",
+                "Venue": "N-25-A"
+            }
+        ],
+        "Friday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 146.52,
+                "start-time": "8:30",
+                "end-time": "9:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Operating Systems",
+                "Class": "FA23-BCS-A",
+                "Venue": "D-2"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 434.28,
+                "end-time-slot": 491.88,
+                "start-time": "14:30",
+                "end-time": "15:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Operating Systems",
+                "Class": "FA23-BCS-B",
+                "Venue": "N-12"
+            }
+        ]
+    },
+    {
+        "Page": 100,
+        "Instructor": "CS-Rabail Asghar",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 319.2,
+                "end-time-slot": 376.8,
+                "start-time": "12:30",
+                "end-time": "13:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "DSF-2",
+                "Class": "FA23-BCS-A",
+                "Venue": "FA23-BCS-B FA23-BCS-C FA23-BCS-D N-9"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 376.8,
+                "end-time-slot": 434.28,
+                "start-time": "13:30",
+                "end-time": "14:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "DSF-1",
+                "Class": "FA23-BCS-A",
+                "Venue": "FA23-BCS-B FA23-BCS-C FA23-BCS-D N-4"
+            }
+        ],
+        "Tuesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 348.0,
+                "end-time-slot": 434.28,
+                "start-time": "13:00",
+                "end-time": "14:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Programming Fundamentals Sp25-ELC-A N-25-A",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 434.28,
+                "end-time-slot": 606.96,
+                "start-time": "14:30",
+                "end-time": "17:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-DSF-1 FA23-BCS-A/FA23-BCS-B/FA23-BCS-C/FA23-BCS-D CS Lab-E (C-11)",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 319.2,
+                "end-time-slot": 376.8,
+                "start-time": "12:30",
+                "end-time": "13:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "DSF-2",
+                "Class": "FA23-BCS-A",
+                "Venue": "FA23-BCS-B FA23-BCS-C FA23-BCS-D N-4"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 376.8,
+                "end-time-slot": 434.28,
+                "start-time": "13:30",
+                "end-time": "14:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "DSF-1",
+                "Class": "FA23-BCS-A",
+                "Venue": "FA23-BCS-B FA23-BCS-C FA23-BCS-D N-11"
+            }
+        ],
+        "Thursday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 348.0,
+                "end-time-slot": 434.28,
+                "start-time": "13:00",
+                "end-time": "14:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Programming Fundamentals Sp25-ELC-A N-23",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 434.28,
+                "end-time-slot": 606.96,
+                "start-time": "14:30",
+                "end-time": "17:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-DSF-2 FA23-BCS-A/FA23-BCS-B/FA23-BCS-C/FA23-BCS-D CS Lab-E (C-11)",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Friday": []
+    },
+    {
+        "Page": 101,
+        "Instructor": "CS-Rana Ajmal",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 434.28,
+                "end-time-slot": 491.88,
+                "start-time": "14:30",
+                "end-time": "15:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Web Tech-6",
+                "Class": "FA23-BSE-A",
+                "Venue": "FA23-BSE-B FA23-BSE-C FA23-BSE-D N-7"
+            }
+        ],
+        "Tuesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 434.28,
+                "end-time-slot": 491.88,
+                "start-time": "14:30",
+                "end-time": "15:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Web Tech-5",
+                "Class": "FA23-BSE-A",
+                "Venue": "FA23-BSE-B FA23-BSE-C FA23-BSE-D N-10"
+            }
+        ],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 434.28,
+                "end-time-slot": 491.88,
+                "start-time": "14:30",
+                "end-time": "15:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Web Tech-6",
+                "Class": "FA23-BSE-A",
+                "Venue": "FA23-BSE-B FA23-BSE-C FA23-BSE-D N-7"
+            }
+        ],
+        "Thursday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 434.28,
+                "end-time-slot": 491.88,
+                "start-time": "14:30",
+                "end-time": "15:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Web Tech-5",
+                "Class": "FA23-BSE-A",
+                "Venue": "FA23-BSE-B FA23-BSE-C FA23-BSE-D N-7"
+            }
+        ],
+        "Friday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 175.32,
+                "end-time-slot": 348.0,
+                "start-time": "10:00",
+                "end-time": "13:00",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Web Tech-6 FA23-BSE-A/FA23-BSE-B/FA23-BSE-C/FA23-BSE-D SE Lab-J (C-9)",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 434.28,
+                "end-time-slot": 606.96,
+                "start-time": "14:30",
+                "end-time": "17:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Web Tech-5 FA23-BSE-A/FA23-BSE-B/FA23-BSE-C/FA23-BSE-D SE Lab-B (C-19)",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ]
+    },
+    {
+        "Page": 102,
+        "Instructor": "CS-Rizwan Qureshi",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 434.28,
+                "start-time": "11:30",
+                "end-time": "14:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Programming Fundamentals",
+                "Class": "FA25-BSE-A",
+                "Venue": "SE Lab-B (C-19)"
+            }
+        ],
+        "Tuesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 261.6,
+                "start-time": "8:30",
+                "end-time": "11:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Programming Fundamentals",
+                "Class": "FA25-BSE-B",
+                "Venue": "SE Lab-J (C-9)"
+            }
+        ],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 175.32,
+                "start-time": "8:30",
+                "end-time": "10:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Programming Fundamentals",
+                "Class": "FA25-BSE-B",
+                "Venue": "N-10"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 175.32,
+                "end-time-slot": 261.6,
+                "start-time": "10:00",
+                "end-time": "11:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Programming Fundamentals",
+                "Class": "FA25-BSE-A",
+                "Venue": "N-7"
+            }
+        ],
+        "Thursday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 175.32,
+                "start-time": "8:30",
+                "end-time": "10:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Programming Fundamentals",
+                "Class": "FA25-BSE-B",
+                "Venue": "N-10"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 175.32,
+                "end-time-slot": 261.6,
+                "start-time": "10:00",
+                "end-time": "11:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Programming Fundamentals",
+                "Class": "FA25-BSE-A",
+                "Venue": "N-7"
+            }
+        ],
+        "Friday": []
+    },
+    {
+        "Page": 103,
+        "Instructor": "CS-Saman Safdar",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 261.6,
+                "start-time": "8:30",
+                "end-time": "11:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Applications of Information and Communicatoin Technologies",
+                "Class": "FA25-BED-A",
+                "Venue": "Lab-D1"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 491.88,
+                "end-time-slot": 549.48,
+                "start-time": "15:30",
+                "end-time": "16:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Professional Practices SP25-BAI-A N-8",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Tuesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 290.4,
+                "end-time-slot": 348.0,
+                "start-time": "12:00",
+                "end-time": "13:00",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Professional Practices SP25-BCS-B C-6",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 376.8,
+                "end-time-slot": 434.28,
+                "start-time": "13:30",
+                "end-time": "14:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Professional Practices SP25-BCS-B C-5",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Thursday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 405.48,
+                "end-time-slot": 463.08,
+                "start-time": "14:00",
+                "end-time": "15:00",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Professional Practices SP25-BAI-A N-3",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 463.08,
+                "end-time-slot": 520.68,
+                "start-time": "15:00",
+                "end-time": "16:00",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Professional Practices SP25-BCS-A N-5",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 3,
+                "start-time-slot": 520.68,
+                "end-time-slot": 578.28,
+                "start-time": "16:00",
+                "end-time": "17:00",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Professional Practices SP25-BCS-C N-5",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Friday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 434.28,
+                "end-time-slot": 491.88,
+                "start-time": "14:30",
+                "end-time": "15:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Professional Practices SP25-BCS-C N-3",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 549.48,
+                "end-time-slot": 606.96,
+                "start-time": "16:30",
+                "end-time": "17:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Professional Practices SP25-BCS-A N-6",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ]
+    },
+    {
+        "Page": 104,
+        "Instructor": "CS-Samia Arshad",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 175.32,
+                "start-time": "8:30",
+                "end-time": "10:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Software Engineering",
+                "Class": "FA24-BCS-C",
+                "Venue": "D-118"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 261.6,
+                "end-time-slot": 348.0,
+                "start-time": "11:30",
+                "end-time": "13:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Software Engineering",
+                "Class": "FA24-BCS-A",
+                "Venue": "D-2"
+            }
+        ],
+        "Tuesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 175.32,
+                "start-time": "8:30",
+                "end-time": "10:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Software Engineering",
+                "Class": "FA24-BCS-A",
+                "Venue": "D-3"
+            }
+        ],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 175.32,
+                "end-time-slot": 261.6,
+                "start-time": "10:00",
+                "end-time": "11:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Software Engineering",
+                "Class": "FA24-BCS-B",
+                "Venue": "N-17"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 261.6,
+                "end-time-slot": 348.0,
+                "start-time": "11:30",
+                "end-time": "13:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Software Engineering",
+                "Class": "FA24-BCS-C",
+                "Venue": "D-13"
+            }
+        ],
+        "Thursday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 175.32,
+                "start-time": "8:30",
+                "end-time": "10:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Software Engineering",
+                "Class": "FA24-BCS-B",
+                "Venue": "N-7"
+            }
+        ],
+        "Friday": []
+    },
+    {
+        "Page": 105,
+        "Instructor": "CS-Sana Rizwan",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 175.32,
+                "start-time": "8:30",
+                "end-time": "10:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Software Construction and Development",
+                "Class": "FA22-BSE-C",
+                "Venue": "C-6"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 175.32,
+                "end-time-slot": 261.6,
+                "start-time": "10:00",
+                "end-time": "11:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Software Construction and Development",
+                "Class": "FA22-BSE-B",
+                "Venue": "C-6"
+            }
+        ],
+        "Tuesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 175.32,
+                "start-time": "8:30",
+                "end-time": "10:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Software Construction and Development",
+                "Class": "FA22-BSE-A",
+                "Venue": "C-5"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 204.12,
+                "end-time-slot": 290.4,
+                "start-time": "10:30",
+                "end-time": "12:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Software Construction and Development",
+                "Class": "FA22-BSE-B",
+                "Venue": "C-6"
+            }
+        ],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 175.32,
+                "start-time": "8:30",
+                "end-time": "10:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Software Construction and Development",
+                "Class": "FA22-BSE-C",
+                "Venue": "C-6"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 175.32,
+                "end-time-slot": 261.6,
+                "start-time": "10:00",
+                "end-time": "11:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Software Construction and Development",
+                "Class": "FA22-BSE-A",
+                "Venue": "C-6"
+            }
+        ],
+        "Thursday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 434.28,
+                "start-time": "11:30",
+                "end-time": "14:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Programing Fundamentals SP25-BED-A SE Lab-F (C-13)",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Friday": []
+    },
+    {
+        "Page": 106,
+        "Instructor": "CS-Shahid Bhatti",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 434.28,
+                "end-time-slot": 520.68,
+                "start-time": "14:30",
+                "end-time": "16:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Object Oriented Programming SP25-BCS-A N-21",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 520.68,
+                "end-time-slot": 606.96,
+                "start-time": "16:00",
+                "end-time": "17:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Object Oriented Programming SP25-BCS-B N-25-A",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Tuesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 434.28,
+                "end-time-slot": 520.68,
+                "start-time": "14:30",
+                "end-time": "16:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Object Oriented Programming SP25-BCS-B N-13",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 520.68,
+                "end-time-slot": 606.96,
+                "start-time": "16:00",
+                "end-time": "17:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Object Oriented Programming SP25-BCS-A N-15",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 434.28,
+                "end-time-slot": 606.96,
+                "start-time": "14:30",
+                "end-time": "17:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Object Oriented Programming SP25-BCS-A CS Lab-P",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Thursday": [],
+        "Friday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 434.28,
+                "end-time-slot": 606.96,
+                "start-time": "14:30",
+                "end-time": "17:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Object Oriented Programming SP25-BCS-B CS Lab-C (C-8)",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ]
+    },
+    {
+        "Page": 107,
+        "Instructor": "CS-Shahrukh Naeem",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 146.52,
+                "start-time": "8:30",
+                "end-time": "9:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Applications of Information & Communication Technologies",
+                "Class": "FA25-BSE-C",
+                "Venue": "N-23"
+            }
+        ],
+        "Tuesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 434.28,
+                "end-time-slot": 491.88,
+                "start-time": "14:30",
+                "end-time": "15:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "FA23-BMSEA-AD(G3)",
+                "Class": "FA23-BSE-B",
+                "Venue": "FA23-BSE-C FA23-BSE-D SP22-BSE-A SP22-BSE-B SP22-BSE-C SP23-BCS-A SP23-BCS-B SP23-BCS-C FA22-BCS-A F F A A 2 2 2 2 - - B B C C S S - - C BN-1"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 606.96,
+                "end-time-slot": 779.76,
+                "start-time": "17:30",
+                "end-time": "20:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Programming Fundamentals CS/SE Repeaters 1 N-5",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Wednesday": [],
+        "Thursday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 434.28,
+                "end-time-slot": 491.88,
+                "start-time": "14:30",
+                "end-time": "15:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "FA23-BMSEA-AD(G3)",
+                "Class": "FA23-BSE-B",
+                "Venue": "FA23-BSE-C FA23-BSE-D SP22-BSE-A SP22-BSE-B SP22-BSE-C SP23-BCS-A SP23-BCS-B SP23-BCS-C FA22-BCS-A F F A A 2 2 2 2 - - B B C C S S - - C BN-6"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 606.96,
+                "end-time-slot": 779.76,
+                "start-time": "17:30",
+                "end-time": "20:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Programming Fundamentals CS/SE Repeaters 1 SE Lab-J (C-9)",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Friday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 204.12,
+                "end-time-slot": 261.6,
+                "start-time": "10:30",
+                "end-time": "11:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Applications of Information & Communication Technologies",
+                "Class": "FA25-BSE-C",
+                "Venue": "N-15"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 434.28,
+                "end-time-slot": 606.96,
+                "start-time": "14:30",
+                "end-time": "17:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-MAD(G3) FA23-BSE-A/FA23-BSE-B/FA23-BSE-C/FA23-BSE-D SP22-BSE-A/SP22-BSE-B/SP22-BSE-C/SP23-BCS-A SP23-BCS-B/SP23-BCS-C/FA22-BCS-A/FA22-BCS-B",
+                "Class": "FA22-BCS-C",
+                "Venue": "CS Lab-G (C-1)"
+            }
+        ]
+    },
+    {
+        "Page": 108,
+        "Instructor": "CS-Shuja Akbar",
+        "Monday": [],
+        "Tuesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 376.8,
+                "end-time-slot": 434.28,
+                "start-time": "13:30",
+                "end-time": "14:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "EDM-1 SP22-BSE-A SP22-BSE-B SP22-BSE-C N-1",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 434.28,
+                "end-time-slot": 491.88,
+                "start-time": "14:30",
+                "end-time": "15:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "EDM-2 SP22-BSE-A SP22-BSE-B SP22-BSE-C N-5",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Wednesday": [],
+        "Thursday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 376.8,
+                "end-time-slot": 434.28,
+                "start-time": "13:30",
+                "end-time": "14:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "EDM-1 SP22-BSE-A SP22-BSE-B SP22-BSE-C N-15",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 434.28,
+                "end-time-slot": 491.88,
+                "start-time": "14:30",
+                "end-time": "15:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "EDM-2 SP22-BSE-A SP22-BSE-B SP22-BSE-C N-15",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Friday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 175.32,
+                "end-time-slot": 348.0,
+                "start-time": "10:00",
+                "end-time": "13:00",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-EDM-1 SP22-BSE-A/SP22-BSE-B/SP22-BSE-C SE Lab-A (C-18)",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 434.28,
+                "end-time-slot": 606.96,
+                "start-time": "14:30",
+                "end-time": "17:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-EDM-2 SP22-BSE-A/SP22-BSE-B/SP22-BSE-C SE Lab-A (C-18)",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ]
+    },
+    {
+        "Page": 109,
+        "Instructor": "CS-Sidra Nasir",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 204.12,
+                "end-time-slot": 261.6,
+                "start-time": "10:30",
+                "end-time": "11:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Computer Networks SP24-BSE-C N-12",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 261.6,
+                "end-time-slot": 319.2,
+                "start-time": "11:30",
+                "end-time": "12:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Computer Networks SP24-BSE-B D-12 (Mon)",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 3,
+                "start-time-slot": 434.28,
+                "end-time-slot": 491.88,
+                "start-time": "14:30",
+                "end-time": "15:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Computer Networks SP24-BSE-A N-23",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Tuesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 434.28,
+                "start-time": "11:30",
+                "end-time": "14:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Computer Networks SP24-BSE-B SE Lab-H (C-7)",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 319.2,
+                "start-time": "11:30",
+                "end-time": "12:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Computer Networks SP24-BSE-C N-24",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 549.48,
+                "end-time-slot": 606.96,
+                "start-time": "16:30",
+                "end-time": "17:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Computer Networks SP24-BSE-A N-23",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Thursday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 434.28,
+                "start-time": "11:30",
+                "end-time": "14:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Computer Networks SP24-BSE-A SE Lab-B (C-19)",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 549.48,
+                "end-time-slot": 606.96,
+                "start-time": "16:30",
+                "end-time": "17:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Computer Networks SP24-BSE-B N-24",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Friday": []
+    },
+    {
+        "Page": 110,
+        "Instructor": "CS-Sobia Usman",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 348.0,
+                "start-time": "11:30",
+                "end-time": "13:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Software Requirement Engineering",
+                "Class": "FA23-BSE-C",
+                "Venue": "D-113"
+            }
+        ],
+        "Tuesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 175.32,
+                "end-time-slot": 261.6,
+                "start-time": "10:00",
+                "end-time": "11:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Software Requirement Engineering",
+                "Class": "FA23-BSE-D",
+                "Venue": "D-113"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 348.0,
+                "end-time-slot": 434.28,
+                "start-time": "13:00",
+                "end-time": "14:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Software Requirement Engineering",
+                "Class": "FA23-BSE-C",
+                "Venue": "D-6"
+            }
+        ],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 434.28,
+                "start-time": "11:30",
+                "end-time": "14:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Programming Fundamentals Sp25-ELC-A Simulation and Computing Lab (A-5)",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Thursday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 261.6,
+                "start-time": "8:30",
+                "end-time": "11:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Applications of Information & Communication Technologies",
+                "Class": "FA25-BCS-C",
+                "Venue": "CS Lab-G (C-1)"
+            }
+        ],
+        "Friday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 175.32,
+                "start-time": "8:30",
+                "end-time": "10:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Software Requirement Engineering",
+                "Class": "FA23-BSE-D",
+                "Venue": "D-113"
+            }
+        ]
+    },
+    {
+        "Page": 111,
+        "Instructor": "CS-Sunbal Siddique",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 175.32,
+                "start-time": "8:30",
+                "end-time": "10:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Software Design and Architecture",
+                "Class": "FA23-BSE-A",
+                "Venue": "N-5"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 348.0,
+                "end-time-slot": 434.28,
+                "start-time": "13:00",
+                "end-time": "14:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Software Design and Architecture",
+                "Class": "FA23-BSE-C",
+                "Venue": "D-2"
+            }
+        ],
+        "Tuesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 434.28,
+                "start-time": "11:30",
+                "end-time": "14:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Object Oriented Programming SP25-BAI-A CS Lab-I (C-14)",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 348.0,
+                "start-time": "11:30",
+                "end-time": "13:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Software Design and Architecture",
+                "Class": "FA23-BSE-B",
+                "Venue": "D-107"
+            }
+        ],
+        "Thursday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 175.32,
+                "start-time": "8:30",
+                "end-time": "10:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Software Design and Architecture",
+                "Class": "FA23-BSE-C",
+                "Venue": "D-11"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 261.6,
+                "end-time-slot": 348.0,
+                "start-time": "11:30",
+                "end-time": "13:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Software Design and Architecture",
+                "Class": "FA23-BSE-B",
+                "Venue": "D-14"
+            }
+        ],
+        "Friday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 175.32,
+                "start-time": "8:30",
+                "end-time": "10:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Software Design and Architecture",
+                "Class": "FA23-BSE-A",
+                "Venue": "N-1"
+            }
+        ]
+    },
+    {
+        "Page": 112,
+        "Instructor": "CS-Tahir",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 434.28,
+                "end-time-slot": 520.68,
+                "start-time": "14:30",
+                "end-time": "16:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Database Systems SP24-BAI-A D-15",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Tuesday": [],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 175.32,
+                "start-time": "8:30",
+                "end-time": "10:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Database Systems SP24-BAI-A D-116",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Thursday": [],
+        "Friday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 606.96,
+                "end-time-slot": 779.76,
+                "start-time": "17:30",
+                "end-time": "20:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Database Systems I CS/SE Repeaters 2 N-1",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ]
+    },
+    {
+        "Page": 113,
+        "Instructor": "CS-Usman Akram",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 434.28,
+                "end-time-slot": 491.88,
+                "start-time": "14:30",
+                "end-time": "15:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Web Tech-3 SP23-BCS-A SP23-BCS-B SP23-BCS-C N-5",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Tuesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 434.28,
+                "end-time-slot": 491.88,
+                "start-time": "14:30",
+                "end-time": "15:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Web Tech-4 SP23-BCS-A SP23-BCS-B SP23-BCS-C N-4",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 434.28,
+                "end-time-slot": 491.88,
+                "start-time": "14:30",
+                "end-time": "15:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Web Tech-3 SP23-BCS-A SP23-BCS-B SP23-BCS-C N-5",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Thursday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 434.28,
+                "end-time-slot": 491.88,
+                "start-time": "14:30",
+                "end-time": "15:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Web Tech-4 SP23-BCS-A SP23-BCS-B SP23-BCS-C N-22",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Friday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 175.32,
+                "end-time-slot": 348.0,
+                "start-time": "10:00",
+                "end-time": "13:00",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Web Tech-3 SP23-BCS-A/SP23-BCS-B/SP23-BCS-C CS Lab-P",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 434.28,
+                "end-time-slot": 606.96,
+                "start-time": "14:30",
+                "end-time": "17:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Web Tech-4 SP23-BCS-A/SP23-BCS-B/SP23-BCS-C CS Lab-E (C-11)",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ]
+    },
+    {
+        "Page": 114,
+        "Instructor": "CS-Usman Shahzeb",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 319.2,
+                "end-time-slot": 376.8,
+                "start-time": "12:30",
+                "end-time": "13:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "DSF-3",
+                "Class": "FA23-BCS-A",
+                "Venue": "FA23-BCS-B FA23-BCS-C FA23-BCS-D N-4"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 434.28,
+                "end-time-slot": 491.88,
+                "start-time": "14:30",
+                "end-time": "15:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "DSF-6",
+                "Class": "FA23-BSE-A",
+                "Venue": "FA23-BSE-B FA23-BSE-C FA23-BSE-D N-6"
+            }
+        ],
+        "Tuesday": [],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 319.2,
+                "end-time-slot": 376.8,
+                "start-time": "12:30",
+                "end-time": "13:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "DSF-3",
+                "Class": "FA23-BCS-A",
+                "Venue": "FA23-BCS-B FA23-BCS-C FA23-BCS-D N-11"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 434.28,
+                "end-time-slot": 491.88,
+                "start-time": "14:30",
+                "end-time": "15:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "DSF-6",
+                "Class": "FA23-BSE-A",
+                "Venue": "FA23-BSE-B FA23-BSE-C FA23-BSE-D N-6"
+            }
+        ],
+        "Thursday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 434.28,
+                "end-time-slot": 606.96,
+                "start-time": "14:30",
+                "end-time": "17:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-DSF-3 FA23-BCS-A/FA23-BCS-B/FA23-BCS-C/FA23-BCS-D CS Lab-P",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Friday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 175.32,
+                "end-time-slot": 348.0,
+                "start-time": "10:00",
+                "end-time": "13:00",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-DSF-6 FA23-BSE-A/FA23-BSE-B/FA23-BSE-C/FA23-BSE-D SE Lab-H (C-7)",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ]
+    },
+    {
+        "Page": 115,
+        "Instructor": "CS-Yella Mehroz",
+        "Monday": [],
+        "Tuesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 434.28,
+                "end-time-slot": 491.88,
+                "start-time": "14:30",
+                "end-time": "15:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "DSF-5",
+                "Class": "FA23-BSE-A",
+                "Venue": "FA23-BSE-B FA23-BSE-C FA23-BSE-D N-6"
+            }
+        ],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 434.28,
+                "end-time-slot": 491.88,
+                "start-time": "14:30",
+                "end-time": "15:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "DSF-4",
+                "Class": "FA23-BSE-A",
+                "Venue": "FA23-BSE-B FA23-BSE-C FA23-BSE-D N-9"
+            }
+        ],
+        "Thursday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 434.28,
+                "end-time-slot": 491.88,
+                "start-time": "14:30",
+                "end-time": "15:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "DSF-5",
+                "Class": "FA23-BSE-A",
+                "Venue": "FA23-BSE-B FA23-BSE-C FA23-BSE-D N-4"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 491.88,
+                "end-time-slot": 549.48,
+                "start-time": "15:30",
+                "end-time": "16:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "DSF-4",
+                "Class": "FA23-BSE-A",
+                "Venue": "FA23-BSE-B FA23-BSE-C FA23-BSE-D N-4"
+            }
+        ],
+        "Friday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 175.32,
+                "end-time-slot": 348.0,
+                "start-time": "10:00",
+                "end-time": "13:00",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-DSF-4 FA23-BSE-A/FA23-BSE-B/FA23-BSE-C/FA23-BSE-D SE Lab-F (C-13)",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 434.28,
+                "end-time-slot": 606.96,
+                "start-time": "14:30",
+                "end-time": "17:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-DSF-5 FA23-BSE-A/FA23-BSE-B/FA23-BSE-C/FA23-BSE-D SE Lab-J (C-9)",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ]
+    },
+    {
+        "Page": 116,
+        "Instructor": "CS-Zaheer Akhtar",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 146.52,
+                "start-time": "8:30",
+                "end-time": "9:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Operating Systems",
+                "Class": "FA23-BSE-D",
+                "Venue": "D-10 (Mon)"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 146.52,
+                "end-time-slot": 204.12,
+                "start-time": "9:30",
+                "end-time": "10:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Operating Systems",
+                "Class": "FA23-BSE-C",
+                "Venue": "N-16"
+            }
+        ],
+        "Tuesday": [],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 146.52,
+                "start-time": "8:30",
+                "end-time": "9:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Operating Systems",
+                "Class": "FA23-BSE-C",
+                "Venue": "D-15"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 146.52,
+                "end-time-slot": 204.12,
+                "start-time": "9:30",
+                "end-time": "10:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Operating Systems",
+                "Class": "FA23-BSE-D",
+                "Venue": "D-15"
+            },
+            {
+                "Lecture": 3,
+                "start-time-slot": 261.6,
+                "end-time-slot": 434.28,
+                "start-time": "11:30",
+                "end-time": "14:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Operating Systems",
+                "Class": "FA23-BSE-C",
+                "Venue": "CS Lab-P"
+            }
+        ],
+        "Thursday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 261.6,
+                "start-time": "8:30",
+                "end-time": "11:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Operating Systems",
+                "Class": "FA23-BSE-D",
+                "Venue": "SE Lab-B (C-19)"
+            }
+        ],
+        "Friday": []
+    },
+    {
+        "Page": 117,
+        "Instructor": "CS-Zeenat Afzal",
+        "Monday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 146.52,
+                "end-time-slot": 204.12,
+                "start-time": "9:30",
+                "end-time": "10:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Operating Systems",
+                "Class": "FA23-BCS-C",
+                "Venue": "D-6"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 261.6,
+                "end-time-slot": 348.0,
+                "start-time": "11:30",
+                "end-time": "13:00",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Design & Analysis of Algorithm SP24-BCS-B C-6",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Tuesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 261.6,
+                "end-time-slot": 319.2,
+                "start-time": "11:30",
+                "end-time": "12:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Operating Systems",
+                "Class": "FA23-BCS-C",
+                "Venue": "D-5"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 348.0,
+                "end-time-slot": 434.28,
+                "start-time": "13:00",
+                "end-time": "14:30",
+                "duration": "1.5",
+                "type": "Lecture",
+                "CourseName": "Design & Analysis of Algorithm SP24-BCS-B A-6",
+                "Class": "Unknown",
+                "Venue": "Unknown"
+            }
+        ],
+        "Wednesday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 261.6,
+                "start-time": "8:30",
+                "end-time": "11:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Operating Systems",
+                "Class": "FA23-BCS-D",
+                "Venue": "CS Lab-G (C-1)"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 491.88,
+                "end-time-slot": 549.48,
+                "start-time": "15:30",
+                "end-time": "16:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Operating Systems",
+                "Class": "FA23-BCS-D",
+                "Venue": "N-7"
+            }
+        ],
+        "Thursday": [
+            {
+                "Lecture": 1,
+                "start-time-slot": 88.94,
+                "end-time-slot": 261.6,
+                "start-time": "8:30",
+                "end-time": "11:30",
+                "duration": "3.0",
+                "type": "Lab",
+                "CourseName": "Lab-Operating Systems",
+                "Class": "FA23-BCS-C",
+                "Venue": "CS Lab-I (C-14)"
+            },
+            {
+                "Lecture": 2,
+                "start-time-slot": 319.2,
+                "end-time-slot": 376.8,
+                "start-time": "12:30",
+                "end-time": "13:30",
+                "duration": "1.0",
+                "type": "Lecture",
+                "CourseName": "Operating Systems",
+                "Class": "FA23-BCS-D",
+                "Venue": "D-112"
+            }
+        ],
+        "Friday": []
+    }
+]
